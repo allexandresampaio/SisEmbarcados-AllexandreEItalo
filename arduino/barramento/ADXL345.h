@@ -193,6 +193,7 @@ public:
   bool getJustifyBit();
   void setJustifyBit(bool justifyBit);
   void printAllRegister();
+  bool getFreeFall();//incluida para buscar situacao de queda
 
 private:
   void writeTo(byte address, byte val);

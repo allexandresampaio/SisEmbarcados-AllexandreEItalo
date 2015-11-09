@@ -574,6 +574,13 @@ void ADXL345::setRegisterBit(byte regAdress, int bitPos, bool state) {
   writeTo(regAdress, _b);  
 }
 
+//metodo incluido para buscar informacao de queda do bit free fall
+bool ADXL345::getFreeFall() {
+  byte _b;
+  readFrom(ADXL345_INT_FREE_FALL_BIT, 1, &_b);
+  return _b;
+}
+
 bool ADXL345::getRegisterBit(byte regAdress, int bitPos) {
   byte _b;
   readFrom(regAdress, 1, &_b);
