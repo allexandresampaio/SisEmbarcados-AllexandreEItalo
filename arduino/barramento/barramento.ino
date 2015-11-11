@@ -20,16 +20,30 @@ void setup() {
   barom.begin();//liga o barometro
   
   //set values for what is considered freefall (0-255)
-  acel.setFreeFallThreshold(7); //(5 - 9) recommended - 62.5mg per increment
-  acel.setFreeFallDuration(45); //(20 - 70) recommended - 5ms per increment
+  //aceleracao menor que o threshold por mais tempo que o duration
+  acel.setFreeFallThreshold(5); //(5 - 9) recommended - 62.5mg per increment
+  acel.setFreeFallDuration(20); //(20 - 70) recommended - 5ms per increment
+
+  //setting all interupts to take place on int pin 1
+  //I had issues with int pin 2, was unable to reset it
+  acel.setInterruptMapping( ADXL345_INT_FREE_FALL_BIT,    ADXL345_INT1_PIN );
+  acel.setInterrupt( ADXL345_INT_FREE_FALL_BIT,  1);
 }
 
 void loop() {
+  
+  //getInterruptSource clears all triggered actions after returning value
+  //so do not call again until you need to recheck for triggered actions
+  byte interrupts = acel.getInterruptSource();
+  
   acel.readAccel(&dados.acelX, &dados.acelY, &dados.acelZ);//o & pega o endereco da variavel...
   dados.altura = barom.readAltitude(101325);//calculo de altitude passando a pressao padrao ao nivel do mar...
-  dados.queda = acel.getFreeFall();
+  
+  // freefall  
+  dados.queda = acel.triggered(interrupts, ADXL345_FREE_FALL);
+  
   enviarDados();
-  //delay (1000);//da um tempo na leitura do acelerometro
+  delay (100);//da um tempo na leitura do acelerometro, ideal para esperar o calculo de celeraco freefall
 }
 
 void enviarDados(){
@@ -41,7 +55,7 @@ void enviarDados(){
   Serial.write('I');//inicio
   Serial.write((uint8_t*)&buff, tam);  //faz um cast para o tipo passado q e o endereco de buffer, tbm pega o tamanho do buffer
   Serial.write('F');//final
-  Serial.write(" - Eixo x:");
+  /*Serial.write(" - Eixo x:");
   Serial.println(dados.acelX);
   Serial.write(" - Eixo y:");
   Serial.println(dados.acelY);
@@ -50,5 +64,5 @@ void enviarDados(){
   Serial.write(" - Altitude:");
   Serial.println(dados.altura);
   Serial.write(" - Queda:");
-  Serial.println(dados.queda);
+  Serial.println(dados.queda);*/
 };
