@@ -7,7 +7,6 @@ Adafruit_BMP085 barom = Adafruit_BMP085();//cria uma instancia do BMP085
 
 //struct (estrutura de dados) e usado pra dar mais performance, ja q os dados n serao enviados um a um
 struct Dados{
-  int acelX, acelY, acelZ;
   float altura;
   boolean queda = false;
 };
@@ -36,7 +35,6 @@ void loop() {
   //so do not call again until you need to recheck for triggered actions
   byte interrupts = acel.getInterruptSource();
   
-  acel.readAccel(&dados.acelX, &dados.acelY, &dados.acelZ);//o & pega o endereco da variavel...
   dados.altura = barom.readAltitude(101325);//calculo de altitude passando a pressao padrao ao nivel do mar...
   
   // freefall  
@@ -55,13 +53,7 @@ void enviarDados(){
   Serial.write('I');//inicio
   Serial.write((uint8_t*)&buff, tam);  //faz um cast para o tipo passado q e o endereco de buffer, tbm pega o tamanho do buffer
   Serial.write('F');//final
-  /*Serial.write(" - Eixo x:");
-  Serial.println(dados.acelX);
-  Serial.write(" - Eixo y:");
-  Serial.println(dados.acelY);
-  Serial.write(" - Eixo z:");
-  Serial.println(dados.acelZ);
-  Serial.write(" - Altitude:");
+  /*Serial.write(" - Altitude:");
   Serial.println(dados.altura);
   Serial.write(" - Queda:");
   Serial.println(dados.queda);*/

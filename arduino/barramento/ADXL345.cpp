@@ -547,10 +547,6 @@ bool ADXL345::triggered(byte interrupts, int mask){
  ADXL345_OVERRUNY
  */
 
-
-
-
-
 byte ADXL345::getInterruptSource() {
 	byte _b;
 	readFrom(ADXL345_INT_SOURCE, 1, &_b);
