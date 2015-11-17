@@ -13,8 +13,8 @@
 #include <cstdlib>
 
 struct Dados { //struct (estrutura de dados) e usado pra dar mais performance, ja q os dados n serao enviados um a um
-	float altura; //aqui sera do tipo short pq o int do pc usa 4 bytes, mas o que vem do arduino eh de 2 bytes;
-	boolean queda;//o tipo short usa tbm 2 bytes e, por isso, vai ser compativel....
+	short altura; //aqui sera do tipo short pq o int do pc usa 4 bytes, mas o que vem do arduino eh de 2 bytes;
+	short queda;//o tipo short usa tbm 2 bytes e, por isso, vai ser compativel....
 };
 
 //instanciando globalmente Dados e Comunicacao para uso depois
@@ -41,11 +41,11 @@ int ler() {
 	return resultado;
 }
 
-float getAltitude(){
+short getAltitude(){
 	return dados.altura;
 }
 
-boolean getQueda(){
+short int getQueda(){
 	return dados.queda;
 }
 

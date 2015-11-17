@@ -7,8 +7,8 @@ Adafruit_BMP085 barom = Adafruit_BMP085();//cria uma instancia do BMP085
 
 //struct (estrutura de dados) e usado pra dar mais performance, ja q os dados n serao enviados um a um
 struct Dados{
-  float altura;
-  boolean queda = false;
+  int altura;
+  int queda;
 };
 
 Dados dados;//instanciando tipo de estrutura Eixos e a variavel eixos
@@ -47,7 +47,6 @@ void loop() {
 void enviarDados(){
   int tam = sizeof(dados);//sizeof retorna o tamanho da coisa em bytes
   char buff[tam];
-
   memcpy(&buff, &dados, tam);//funcao nativa do C que coloca na memoria passada como buffer a coisa passada do tamanho passado...
 
   Serial.write('I');//inicio
