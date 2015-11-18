@@ -42,11 +42,10 @@ public class AsyncExec implements Runnable{
 			while (continuar){
 				conector.ler();
 				notificar(conector.getAltitude(), conector.getQueda());
-				
+								
 				try {
 					Thread.sleep(100);
 				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}
