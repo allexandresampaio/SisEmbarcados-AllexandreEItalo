@@ -3,8 +3,9 @@ package br.edu.ifba.embarcados.quedaapp;
 import br.edu.ifba.embarcados.quedaapp.asyncexec.AsyncExec;
 
 public class Executor {
-
+	
 	public static void main(String[] args) throws InterruptedException {
+		
 		AsyncExec async = new AsyncExec("COM3");
 		
 		ListenerSensores listener = new ListenerSensores();
