@@ -1,6 +1,6 @@
-package br.edu.ifba.embarcados.sensorquedaapp;
+package br.edu.ifba.embarcados.quedaapp;
 
-import br.edu.ifba.embarcados.sensorquedaapp.asyncexec.IListenerSensores;
+import br.edu.ifba.embarcados.quedaapp.asyncexec.IListenerSensores;
 
 public class ListenerSensores implements IListenerSensores{
 

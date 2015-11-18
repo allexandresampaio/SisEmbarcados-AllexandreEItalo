@@ -1,6 +1,6 @@
-package br.edu.ifba.embarcados.sensorquedaapp;
+package br.edu.ifba.embarcados.quedaapp;
 
-import br.edu.ifba.embarcados.sensorquedaapp.asyncexec.AsyncExec;
+import br.edu.ifba.embarcados.quedaapp.asyncexec.AsyncExec;
 
 public class Executor {
 
