@@ -6,7 +6,7 @@ public class Executor {
 	
 	public static void main(String[] args) throws InterruptedException {
 		
-		AsyncExec async = new AsyncExec("COM3");
+		AsyncExec async = new AsyncExec("COM5");
 		
 		ListenerSensores listener = new ListenerSensores();
 		
