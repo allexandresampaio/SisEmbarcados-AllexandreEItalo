@@ -1,995 +1,374 @@
-00:30:59.582 [Thread-1] INFO  ListenerSensores - Altitude: 100
-00:30:59.584 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:30:59.684 [Thread-1] INFO  ListenerSensores - Altitude: 99
-00:30:59.684 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:30:59.785 [Thread-1] INFO  ListenerSensores - Altitude: 98
-00:30:59.785 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:30:59.885 [Thread-1] INFO  ListenerSensores - Altitude: 97
-00:30:59.885 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:30:59.985 [Thread-1] INFO  ListenerSensores - Altitude: 96
-00:30:59.985 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:00.085 [Thread-1] INFO  ListenerSensores - Altitude: 95
-00:31:00.085 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:00.186 [Thread-1] INFO  ListenerSensores - Altitude: 94
-00:31:00.186 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:00.287 [Thread-1] INFO  ListenerSensores - Altitude: 93
-00:31:00.287 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:00.388 [Thread-1] INFO  ListenerSensores - Altitude: 92
-00:31:00.388 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:00.488 [Thread-1] INFO  ListenerSensores - Altitude: 91
-00:31:00.488 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:00.588 [Thread-1] INFO  ListenerSensores - Altitude: 90
-00:31:00.588 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:00.688 [Thread-1] INFO  ListenerSensores - Altitude: 89
-00:31:00.688 [Thread-1] WARN  ListenerSensores - Caindo!
-00:31:00.789 [Thread-1] INFO  ListenerSensores - Altitude: 88
-00:31:00.789 [Thread-1] WARN  ListenerSensores - Caindo!
-00:31:00.889 [Thread-1] INFO  ListenerSensores - Altitude: 87
-00:31:00.889 [Thread-1] WARN  ListenerSensores - Caindo!
-00:31:00.990 [Thread-1] INFO  ListenerSensores - Altitude: 86
-00:31:00.990 [Thread-1] WARN  ListenerSensores - Caindo!
-00:31:01.090 [Thread-1] INFO  ListenerSensores - Altitude: 85
-00:31:01.090 [Thread-1] WARN  ListenerSensores - Caindo!
-00:31:01.190 [Thread-1] INFO  ListenerSensores - Altitude: 84
-00:31:01.190 [Thread-1] WARN  ListenerSensores - Caindo!
-00:31:01.291 [Thread-1] INFO  ListenerSensores - Altitude: 83
-00:31:01.291 [Thread-1] WARN  ListenerSensores - Caindo!
-00:31:01.392 [Thread-1] INFO  ListenerSensores - Altitude: 82
-00:31:01.392 [Thread-1] WARN  ListenerSensores - Caindo!
-00:31:01.493 [Thread-1] INFO  ListenerSensores - Altitude: 81
-00:31:01.493 [Thread-1] WARN  ListenerSensores - Caindo!
-00:31:01.594 [Thread-1] INFO  ListenerSensores - Altitude: 80
-00:31:01.594 [Thread-1] WARN  ListenerSensores - Caindo!
-00:31:01.694 [Thread-1] INFO  ListenerSensores - Altitude: 79
-00:31:01.694 [Thread-1] WARN  ListenerSensores - Caindo!
-00:31:01.795 [Thread-1] INFO  ListenerSensores - Altitude: 78
-00:31:01.795 [Thread-1] WARN  ListenerSensores - Caindo!
-00:31:01.897 [Thread-1] INFO  ListenerSensores - Altitude: 77
-00:31:01.897 [Thread-1] WARN  ListenerSensores - Caindo!
-00:31:01.998 [Thread-1] INFO  ListenerSensores - Altitude: 76
-00:31:01.998 [Thread-1] WARN  ListenerSensores - Caindo!
-00:31:02.099 [Thread-1] INFO  ListenerSensores - Altitude: 75
-00:31:02.099 [Thread-1] WARN  ListenerSensores - Caindo!
-00:31:02.200 [Thread-1] INFO  ListenerSensores - Altitude: 74
-00:31:02.200 [Thread-1] WARN  ListenerSensores - Caindo!
-00:31:02.301 [Thread-1] INFO  ListenerSensores - Altitude: 73
-00:31:02.301 [Thread-1] WARN  ListenerSensores - Caindo!
-00:31:02.401 [Thread-1] INFO  ListenerSensores - Altitude: 72
-00:31:02.401 [Thread-1] WARN  ListenerSensores - Caindo!
-00:31:02.502 [Thread-1] INFO  ListenerSensores - Altitude: 71
-00:31:02.502 [Thread-1] WARN  ListenerSensores - Caindo!
-00:31:02.603 [Thread-1] INFO  ListenerSensores - Altitude: 70
-00:31:02.603 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:02.603 [Thread-1] INFO  ListenerSensores - QUEDA DETECTADA. ALTITUDE INICIAL: 70. ALTITUDE FINAL: 71.
-00:31:02.703 [Thread-1] INFO  ListenerSensores - Altitude: 69
-00:31:02.703 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:02.804 [Thread-1] INFO  ListenerSensores - Altitude: 68
-00:31:02.804 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:02.905 [Thread-1] INFO  ListenerSensores - Altitude: 67
-00:31:02.905 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:03.006 [Thread-1] INFO  ListenerSensores - Altitude: 66
-00:31:03.006 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:03.106 [Thread-1] INFO  ListenerSensores - Altitude: 65
-00:31:03.106 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:03.207 [Thread-1] INFO  ListenerSensores - Altitude: 64
-00:31:03.207 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:03.307 [Thread-1] INFO  ListenerSensores - Altitude: 63
-00:31:03.307 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:03.408 [Thread-1] INFO  ListenerSensores - Altitude: 62
-00:31:03.408 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:03.508 [Thread-1] INFO  ListenerSensores - Altitude: 61
-00:31:03.508 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:03.608 [Thread-1] INFO  ListenerSensores - Altitude: 60
-00:31:03.608 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:03.709 [Thread-1] INFO  ListenerSensores - Altitude: 59
-00:31:03.709 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:03.809 [Thread-1] INFO  ListenerSensores - Altitude: 58
-00:31:03.809 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:03.910 [Thread-1] INFO  ListenerSensores - Altitude: 57
-00:31:03.910 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:04.010 [Thread-1] INFO  ListenerSensores - Altitude: 56
-00:31:04.010 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:04.110 [Thread-1] INFO  ListenerSensores - Altitude: 55
-00:31:04.110 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:04.210 [Thread-1] INFO  ListenerSensores - Altitude: 54
-00:31:04.210 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:04.310 [Thread-1] INFO  ListenerSensores - Altitude: 53
-00:31:04.310 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:04.411 [Thread-1] INFO  ListenerSensores - Altitude: 52
-00:31:04.411 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:04.512 [Thread-1] INFO  ListenerSensores - Altitude: 51
-00:31:04.512 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:04.613 [Thread-1] INFO  ListenerSensores - Altitude: 50
-00:31:04.613 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:04.713 [Thread-1] INFO  ListenerSensores - Altitude: 49
-00:31:04.713 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:04.814 [Thread-1] INFO  ListenerSensores - Altitude: 48
-00:31:04.814 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:04.914 [Thread-1] INFO  ListenerSensores - Altitude: 47
-00:31:04.914 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:05.015 [Thread-1] INFO  ListenerSensores - Altitude: 46
-00:31:05.015 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:05.116 [Thread-1] INFO  ListenerSensores - Altitude: 45
-00:31:05.116 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:05.216 [Thread-1] INFO  ListenerSensores - Altitude: 44
-00:31:05.216 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:05.317 [Thread-1] INFO  ListenerSensores - Altitude: 43
-00:31:05.317 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:05.418 [Thread-1] INFO  ListenerSensores - Altitude: 42
-00:31:05.418 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:05.519 [Thread-1] INFO  ListenerSensores - Altitude: 41
-00:31:05.519 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:05.620 [Thread-1] INFO  ListenerSensores - Altitude: 40
-00:31:05.620 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:05.720 [Thread-1] INFO  ListenerSensores - Altitude: 39
-00:31:05.720 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:05.821 [Thread-1] INFO  ListenerSensores - Altitude: 38
-00:31:05.821 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:05.922 [Thread-1] INFO  ListenerSensores - Altitude: 37
-00:31:05.922 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:06.022 [Thread-1] INFO  ListenerSensores - Altitude: 36
-00:31:06.022 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:06.122 [Thread-1] INFO  ListenerSensores - Altitude: 35
-00:31:06.122 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:06.224 [Thread-1] INFO  ListenerSensores - Altitude: 34
-00:31:06.224 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:06.324 [Thread-1] INFO  ListenerSensores - Altitude: 33
-00:31:06.324 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:06.425 [Thread-1] INFO  ListenerSensores - Altitude: 32
-00:31:06.425 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:06.526 [Thread-1] INFO  ListenerSensores - Altitude: 31
-00:31:06.526 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:06.626 [Thread-1] INFO  ListenerSensores - Altitude: 30
-00:31:06.626 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:06.727 [Thread-1] INFO  ListenerSensores - Altitude: 29
-00:31:06.727 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:06.827 [Thread-1] INFO  ListenerSensores - Altitude: 28
-00:31:06.827 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:06.927 [Thread-1] INFO  ListenerSensores - Altitude: 27
-00:31:06.927 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:07.028 [Thread-1] INFO  ListenerSensores - Altitude: 26
-00:31:07.028 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:07.128 [Thread-1] INFO  ListenerSensores - Altitude: 25
-00:31:07.128 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:07.228 [Thread-1] INFO  ListenerSensores - Altitude: 24
-00:31:07.228 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:07.329 [Thread-1] INFO  ListenerSensores - Altitude: 23
-00:31:07.329 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:07.429 [Thread-1] INFO  ListenerSensores - Altitude: 22
-00:31:07.429 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:07.530 [Thread-1] INFO  ListenerSensores - Altitude: 21
-00:31:07.530 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:07.631 [Thread-1] INFO  ListenerSensores - Altitude: 20
-00:31:07.631 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:07.731 [Thread-1] INFO  ListenerSensores - Altitude: 19
-00:31:07.731 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:07.831 [Thread-1] INFO  ListenerSensores - Altitude: 18
-00:31:07.831 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:07.932 [Thread-1] INFO  ListenerSensores - Altitude: 17
-00:31:07.932 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:08.032 [Thread-1] INFO  ListenerSensores - Altitude: 16
-00:31:08.032 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:08.133 [Thread-1] INFO  ListenerSensores - Altitude: 15
-00:31:08.133 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:08.234 [Thread-1] INFO  ListenerSensores - Altitude: 14
-00:31:08.234 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:08.334 [Thread-1] INFO  ListenerSensores - Altitude: 13
-00:31:08.334 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:08.434 [Thread-1] INFO  ListenerSensores - Altitude: 12
-00:31:08.434 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:08.535 [Thread-1] INFO  ListenerSensores - Altitude: 11
-00:31:08.535 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:08.635 [Thread-1] INFO  ListenerSensores - Altitude: 10
-00:31:08.635 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:08.735 [Thread-1] INFO  ListenerSensores - Altitude: 9
-00:31:08.735 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:08.836 [Thread-1] INFO  ListenerSensores - Altitude: 8
-00:31:08.836 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:08.937 [Thread-1] INFO  ListenerSensores - Altitude: 7
-00:31:08.937 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:09.037 [Thread-1] INFO  ListenerSensores - Altitude: 6
-00:31:09.037 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:09.138 [Thread-1] INFO  ListenerSensores - Altitude: 5
-00:31:09.138 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:09.239 [Thread-1] INFO  ListenerSensores - Altitude: 4
-00:31:09.239 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:09.340 [Thread-1] INFO  ListenerSensores - Altitude: 3
-00:31:09.340 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:09.440 [Thread-1] INFO  ListenerSensores - Altitude: 2
-00:31:09.440 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:09.540 [Thread-1] INFO  ListenerSensores - Altitude: 1
-00:31:09.540 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:09.640 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:31:09.640 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:09.740 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:31:09.740 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:09.840 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:31:09.840 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:09.941 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:31:09.941 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:10.042 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:31:10.042 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:10.142 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:31:10.142 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:10.242 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:31:10.242 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:10.343 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:31:10.343 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:10.444 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:31:10.444 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:10.545 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:31:10.545 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:10.645 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:31:10.645 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:10.745 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:31:10.745 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:31:10.846 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:31:10.846 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:40.673 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:33:40.674 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:40.775 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:33:40.775 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:40.876 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:33:40.876 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:40.976 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:33:40.976 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:41.077 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:33:41.077 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:41.177 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:33:41.177 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:41.277 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:33:41.277 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:41.377 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:33:41.377 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:41.477 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:33:41.477 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:41.578 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:33:41.578 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:41.678 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:33:41.678 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:41.779 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:33:41.779 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:41.879 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:33:41.879 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:41.980 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:33:41.980 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:42.081 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:33:42.081 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:42.182 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:33:42.182 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:42.283 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:33:42.283 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:42.384 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:33:42.384 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:42.484 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:33:42.484 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:42.584 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:33:42.584 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:42.684 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:33:42.684 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:42.785 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:33:42.785 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:42.886 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:33:42.886 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:42.987 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:33:42.987 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:57.900 [Thread-1] INFO  ListenerSensores - Altitude: 100
-00:33:57.901 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:58.001 [Thread-1] INFO  ListenerSensores - Altitude: 99
-00:33:58.001 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:58.102 [Thread-1] INFO  ListenerSensores - Altitude: 98
-00:33:58.102 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:58.203 [Thread-1] INFO  ListenerSensores - Altitude: 97
-00:33:58.203 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:58.303 [Thread-1] INFO  ListenerSensores - Altitude: 96
-00:33:58.303 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:58.404 [Thread-1] INFO  ListenerSensores - Altitude: 95
-00:33:58.404 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:58.505 [Thread-1] INFO  ListenerSensores - Altitude: 94
-00:33:58.506 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:58.606 [Thread-1] INFO  ListenerSensores - Altitude: 93
-00:33:58.606 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:58.707 [Thread-1] INFO  ListenerSensores - Altitude: 92
-00:33:58.707 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:58.808 [Thread-1] INFO  ListenerSensores - Altitude: 91
-00:33:58.808 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:58.908 [Thread-1] INFO  ListenerSensores - Altitude: 90
-00:33:58.908 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:33:59.009 [Thread-1] INFO  ListenerSensores - Altitude: 89
-00:33:59.009 [Thread-1] WARN  ListenerSensores - Caindo!
-00:33:59.110 [Thread-1] INFO  ListenerSensores - Altitude: 88
-00:33:59.110 [Thread-1] WARN  ListenerSensores - Caindo!
-00:33:59.210 [Thread-1] INFO  ListenerSensores - Altitude: 87
-00:33:59.210 [Thread-1] WARN  ListenerSensores - Caindo!
-00:33:59.311 [Thread-1] INFO  ListenerSensores - Altitude: 86
-00:33:59.311 [Thread-1] WARN  ListenerSensores - Caindo!
-00:33:59.411 [Thread-1] INFO  ListenerSensores - Altitude: 85
-00:33:59.411 [Thread-1] WARN  ListenerSensores - Caindo!
-00:33:59.511 [Thread-1] INFO  ListenerSensores - Altitude: 84
-00:33:59.511 [Thread-1] WARN  ListenerSensores - Caindo!
-00:33:59.612 [Thread-1] INFO  ListenerSensores - Altitude: 83
-00:33:59.612 [Thread-1] WARN  ListenerSensores - Caindo!
-00:33:59.712 [Thread-1] INFO  ListenerSensores - Altitude: 82
-00:33:59.712 [Thread-1] WARN  ListenerSensores - Caindo!
-00:33:59.813 [Thread-1] INFO  ListenerSensores - Altitude: 81
-00:33:59.813 [Thread-1] WARN  ListenerSensores - Caindo!
-00:33:59.913 [Thread-1] INFO  ListenerSensores - Altitude: 80
-00:33:59.913 [Thread-1] WARN  ListenerSensores - Caindo!
-00:34:00.014 [Thread-1] INFO  ListenerSensores - Altitude: 79
-00:34:00.014 [Thread-1] WARN  ListenerSensores - Caindo!
-00:34:00.115 [Thread-1] INFO  ListenerSensores - Altitude: 78
-00:34:00.115 [Thread-1] WARN  ListenerSensores - Caindo!
-00:34:00.215 [Thread-1] INFO  ListenerSensores - Altitude: 77
-00:34:00.215 [Thread-1] WARN  ListenerSensores - Caindo!
-00:34:00.316 [Thread-1] INFO  ListenerSensores - Altitude: 76
-00:34:00.316 [Thread-1] WARN  ListenerSensores - Caindo!
-00:34:00.416 [Thread-1] INFO  ListenerSensores - Altitude: 75
-00:34:00.416 [Thread-1] WARN  ListenerSensores - Caindo!
-00:34:00.517 [Thread-1] INFO  ListenerSensores - Altitude: 74
-00:34:00.517 [Thread-1] WARN  ListenerSensores - Caindo!
-00:34:00.618 [Thread-1] INFO  ListenerSensores - Altitude: 73
-00:34:00.618 [Thread-1] WARN  ListenerSensores - Caindo!
-00:34:00.718 [Thread-1] INFO  ListenerSensores - Altitude: 72
-00:34:00.718 [Thread-1] WARN  ListenerSensores - Caindo!
-00:34:00.818 [Thread-1] INFO  ListenerSensores - Altitude: 71
-00:34:00.818 [Thread-1] WARN  ListenerSensores - Caindo!
-00:34:00.919 [Thread-1] INFO  ListenerSensores - Altitude: 70
-00:34:00.919 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:01.020 [Thread-1] INFO  ListenerSensores - Altitude: 69
-00:34:01.020 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:01.021 [Thread-1] INFO  ListenerSensores - QUEDA DETECTADA. ALTITUDE INICIAL: 70. ALTITUDE FINAL: 71.
-00:34:01.121 [Thread-1] INFO  ListenerSensores - Altitude: 68
-00:34:01.121 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:01.222 [Thread-1] INFO  ListenerSensores - Altitude: 67
-00:34:01.222 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:01.322 [Thread-1] INFO  ListenerSensores - Altitude: 66
-00:34:01.322 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:01.423 [Thread-1] INFO  ListenerSensores - Altitude: 65
-00:34:01.423 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:01.524 [Thread-1] INFO  ListenerSensores - Altitude: 64
-00:34:01.524 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:01.625 [Thread-1] INFO  ListenerSensores - Altitude: 63
-00:34:01.625 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:01.726 [Thread-1] INFO  ListenerSensores - Altitude: 62
-00:34:01.726 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:01.827 [Thread-1] INFO  ListenerSensores - Altitude: 61
-00:34:01.827 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:01.927 [Thread-1] INFO  ListenerSensores - Altitude: 60
-00:34:01.927 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:02.028 [Thread-1] INFO  ListenerSensores - Altitude: 59
-00:34:02.028 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:02.129 [Thread-1] INFO  ListenerSensores - Altitude: 58
-00:34:02.129 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:02.230 [Thread-1] INFO  ListenerSensores - Altitude: 57
-00:34:02.230 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:02.331 [Thread-1] INFO  ListenerSensores - Altitude: 56
-00:34:02.331 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:02.432 [Thread-1] INFO  ListenerSensores - Altitude: 55
-00:34:02.432 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:02.532 [Thread-1] INFO  ListenerSensores - Altitude: 54
-00:34:02.532 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:02.633 [Thread-1] INFO  ListenerSensores - Altitude: 53
-00:34:02.633 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:02.733 [Thread-1] INFO  ListenerSensores - Altitude: 52
-00:34:02.733 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:02.834 [Thread-1] INFO  ListenerSensores - Altitude: 51
-00:34:02.834 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:02.935 [Thread-1] INFO  ListenerSensores - Altitude: 50
-00:34:02.935 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:03.035 [Thread-1] INFO  ListenerSensores - Altitude: 49
-00:34:03.035 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:03.136 [Thread-1] INFO  ListenerSensores - Altitude: 48
-00:34:03.136 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:03.237 [Thread-1] INFO  ListenerSensores - Altitude: 47
-00:34:03.237 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:03.337 [Thread-1] INFO  ListenerSensores - Altitude: 46
-00:34:03.337 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:03.437 [Thread-1] INFO  ListenerSensores - Altitude: 45
-00:34:03.437 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:03.537 [Thread-1] INFO  ListenerSensores - Altitude: 44
-00:34:03.537 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:03.638 [Thread-1] INFO  ListenerSensores - Altitude: 43
-00:34:03.638 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:03.738 [Thread-1] INFO  ListenerSensores - Altitude: 42
-00:34:03.738 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:03.839 [Thread-1] INFO  ListenerSensores - Altitude: 41
-00:34:03.839 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:03.940 [Thread-1] INFO  ListenerSensores - Altitude: 40
-00:34:03.940 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:04.040 [Thread-1] INFO  ListenerSensores - Altitude: 39
-00:34:04.040 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:04.140 [Thread-1] INFO  ListenerSensores - Altitude: 38
-00:34:04.140 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:04.241 [Thread-1] INFO  ListenerSensores - Altitude: 37
-00:34:04.241 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:04.341 [Thread-1] INFO  ListenerSensores - Altitude: 36
-00:34:04.341 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:04.442 [Thread-1] INFO  ListenerSensores - Altitude: 35
-00:34:04.442 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:04.543 [Thread-1] INFO  ListenerSensores - Altitude: 34
-00:34:04.543 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:04.644 [Thread-1] INFO  ListenerSensores - Altitude: 33
-00:34:04.644 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:04.744 [Thread-1] INFO  ListenerSensores - Altitude: 32
-00:34:04.744 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:04.844 [Thread-1] INFO  ListenerSensores - Altitude: 31
-00:34:04.844 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:04.944 [Thread-1] INFO  ListenerSensores - Altitude: 30
-00:34:04.944 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:05.044 [Thread-1] INFO  ListenerSensores - Altitude: 29
-00:34:05.044 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:05.144 [Thread-1] INFO  ListenerSensores - Altitude: 28
-00:34:05.144 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:05.244 [Thread-1] INFO  ListenerSensores - Altitude: 27
-00:34:05.244 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:05.345 [Thread-1] INFO  ListenerSensores - Altitude: 26
-00:34:05.345 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:05.446 [Thread-1] INFO  ListenerSensores - Altitude: 25
-00:34:05.446 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:05.546 [Thread-1] INFO  ListenerSensores - Altitude: 24
-00:34:05.546 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:05.646 [Thread-1] INFO  ListenerSensores - Altitude: 23
-00:34:05.646 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:05.747 [Thread-1] INFO  ListenerSensores - Altitude: 22
-00:34:05.747 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:05.847 [Thread-1] INFO  ListenerSensores - Altitude: 21
-00:34:05.847 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:05.947 [Thread-1] INFO  ListenerSensores - Altitude: 20
-00:34:05.947 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:06.047 [Thread-1] INFO  ListenerSensores - Altitude: 19
-00:34:06.047 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:06.147 [Thread-1] INFO  ListenerSensores - Altitude: 18
-00:34:06.147 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:06.248 [Thread-1] INFO  ListenerSensores - Altitude: 17
-00:34:06.248 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:06.348 [Thread-1] INFO  ListenerSensores - Altitude: 16
-00:34:06.348 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:06.449 [Thread-1] INFO  ListenerSensores - Altitude: 15
-00:34:06.449 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:06.550 [Thread-1] INFO  ListenerSensores - Altitude: 14
-00:34:06.550 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:06.650 [Thread-1] INFO  ListenerSensores - Altitude: 13
-00:34:06.650 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:06.750 [Thread-1] INFO  ListenerSensores - Altitude: 12
-00:34:06.750 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:06.851 [Thread-1] INFO  ListenerSensores - Altitude: 11
-00:34:06.851 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:06.951 [Thread-1] INFO  ListenerSensores - Altitude: 10
-00:34:06.951 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:07.051 [Thread-1] INFO  ListenerSensores - Altitude: 9
-00:34:07.051 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:07.152 [Thread-1] INFO  ListenerSensores - Altitude: 8
-00:34:07.152 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:07.252 [Thread-1] INFO  ListenerSensores - Altitude: 7
-00:34:07.252 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:07.353 [Thread-1] INFO  ListenerSensores - Altitude: 6
-00:34:07.353 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:07.453 [Thread-1] INFO  ListenerSensores - Altitude: 5
-00:34:07.453 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:07.553 [Thread-1] INFO  ListenerSensores - Altitude: 4
-00:34:07.553 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:07.654 [Thread-1] INFO  ListenerSensores - Altitude: 3
-00:34:07.654 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:07.755 [Thread-1] INFO  ListenerSensores - Altitude: 2
-00:34:07.755 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:07.856 [Thread-1] INFO  ListenerSensores - Altitude: 1
-00:34:07.856 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:07.957 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:34:07.957 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:08.057 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:34:08.057 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:08.157 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:34:08.157 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:08.258 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:34:08.258 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:08.358 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:34:08.358 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:08.458 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:34:08.458 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:34:08.559 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:34:08.559 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:07.530 [Thread-1] INFO  ListenerSensores - Altitude: 100
-00:40:07.533 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:07.634 [Thread-1] INFO  ListenerSensores - Altitude: 99
-00:40:07.634 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:07.735 [Thread-1] INFO  ListenerSensores - Altitude: 98
-00:40:07.735 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:07.836 [Thread-1] INFO  ListenerSensores - Altitude: 97
-00:40:07.836 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:07.936 [Thread-1] INFO  ListenerSensores - Altitude: 96
-00:40:07.936 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:08.037 [Thread-1] INFO  ListenerSensores - Altitude: 95
-00:40:08.037 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:08.138 [Thread-1] INFO  ListenerSensores - Altitude: 94
-00:40:08.139 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:08.240 [Thread-1] INFO  ListenerSensores - Altitude: 93
-00:40:08.240 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:08.340 [Thread-1] INFO  ListenerSensores - Altitude: 92
-00:40:08.340 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:08.441 [Thread-1] INFO  ListenerSensores - Altitude: 91
-00:40:08.441 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:08.543 [Thread-1] INFO  ListenerSensores - Altitude: 90
-00:40:08.543 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:08.644 [Thread-1] INFO  ListenerSensores - Altitude: 89
-00:40:08.644 [Thread-1] WARN  ListenerSensores - Caindo!
-00:40:08.745 [Thread-1] INFO  ListenerSensores - Altitude: 88
-00:40:08.745 [Thread-1] WARN  ListenerSensores - Caindo!
-00:40:08.845 [Thread-1] INFO  ListenerSensores - Altitude: 87
-00:40:08.845 [Thread-1] WARN  ListenerSensores - Caindo!
-00:40:08.946 [Thread-1] INFO  ListenerSensores - Altitude: 86
-00:40:08.946 [Thread-1] WARN  ListenerSensores - Caindo!
-00:40:09.047 [Thread-1] INFO  ListenerSensores - Altitude: 85
-00:40:09.047 [Thread-1] WARN  ListenerSensores - Caindo!
-00:40:09.148 [Thread-1] INFO  ListenerSensores - Altitude: 84
-00:40:09.148 [Thread-1] WARN  ListenerSensores - Caindo!
-00:40:09.248 [Thread-1] INFO  ListenerSensores - Altitude: 83
-00:40:09.248 [Thread-1] WARN  ListenerSensores - Caindo!
-00:40:09.349 [Thread-1] INFO  ListenerSensores - Altitude: 82
-00:40:09.349 [Thread-1] WARN  ListenerSensores - Caindo!
-00:40:09.450 [Thread-1] INFO  ListenerSensores - Altitude: 81
-00:40:09.450 [Thread-1] WARN  ListenerSensores - Caindo!
-00:40:09.551 [Thread-1] INFO  ListenerSensores - Altitude: 80
-00:40:09.551 [Thread-1] WARN  ListenerSensores - Caindo!
-00:40:09.651 [Thread-1] INFO  ListenerSensores - Altitude: 79
-00:40:09.651 [Thread-1] WARN  ListenerSensores - Caindo!
-00:40:09.752 [Thread-1] INFO  ListenerSensores - Altitude: 78
-00:40:09.753 [Thread-1] WARN  ListenerSensores - Caindo!
-00:40:09.855 [Thread-1] INFO  ListenerSensores - Altitude: 77
-00:40:09.855 [Thread-1] WARN  ListenerSensores - Caindo!
-00:40:09.956 [Thread-1] INFO  ListenerSensores - Altitude: 76
-00:40:09.956 [Thread-1] WARN  ListenerSensores - Caindo!
-00:40:10.056 [Thread-1] INFO  ListenerSensores - Altitude: 75
-00:40:10.056 [Thread-1] WARN  ListenerSensores - Caindo!
-00:40:10.157 [Thread-1] INFO  ListenerSensores - Altitude: 74
-00:40:10.157 [Thread-1] WARN  ListenerSensores - Caindo!
-00:40:10.258 [Thread-1] INFO  ListenerSensores - Altitude: 73
-00:40:10.258 [Thread-1] WARN  ListenerSensores - Caindo!
-00:40:10.359 [Thread-1] INFO  ListenerSensores - Altitude: 72
-00:40:10.359 [Thread-1] WARN  ListenerSensores - Caindo!
-00:40:10.459 [Thread-1] INFO  ListenerSensores - Altitude: 71
-00:40:10.459 [Thread-1] WARN  ListenerSensores - Caindo!
-00:40:10.560 [Thread-1] INFO  ListenerSensores - Altitude: 70
-00:40:10.560 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:10.560 [Thread-1] INFO  ListenerSensores - QUEDA DETECTADA. ALTITUDE INICIAL: 90. ALTITUDE FINAL: 71.
-00:40:10.661 [Thread-1] INFO  ListenerSensores - Altitude: 69
-00:40:10.661 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:10.762 [Thread-1] INFO  ListenerSensores - Altitude: 68
-00:40:10.762 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:10.862 [Thread-1] INFO  ListenerSensores - Altitude: 67
-00:40:10.862 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:10.963 [Thread-1] INFO  ListenerSensores - Altitude: 66
-00:40:10.963 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:11.064 [Thread-1] INFO  ListenerSensores - Altitude: 65
-00:40:11.064 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:11.165 [Thread-1] INFO  ListenerSensores - Altitude: 64
-00:40:11.165 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:11.265 [Thread-1] INFO  ListenerSensores - Altitude: 63
-00:40:11.265 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:11.366 [Thread-1] INFO  ListenerSensores - Altitude: 62
-00:40:11.366 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:11.467 [Thread-1] INFO  ListenerSensores - Altitude: 61
-00:40:11.467 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:11.568 [Thread-1] INFO  ListenerSensores - Altitude: 60
-00:40:11.568 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:11.669 [Thread-1] INFO  ListenerSensores - Altitude: 59
-00:40:11.669 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:11.769 [Thread-1] INFO  ListenerSensores - Altitude: 58
-00:40:11.769 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:11.870 [Thread-1] INFO  ListenerSensores - Altitude: 57
-00:40:11.870 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:11.971 [Thread-1] INFO  ListenerSensores - Altitude: 56
-00:40:11.971 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:12.071 [Thread-1] INFO  ListenerSensores - Altitude: 55
-00:40:12.071 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:12.172 [Thread-1] INFO  ListenerSensores - Altitude: 54
-00:40:12.172 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:12.273 [Thread-1] INFO  ListenerSensores - Altitude: 53
-00:40:12.273 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:12.374 [Thread-1] INFO  ListenerSensores - Altitude: 52
-00:40:12.374 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:12.474 [Thread-1] INFO  ListenerSensores - Altitude: 51
-00:40:12.474 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:12.575 [Thread-1] INFO  ListenerSensores - Altitude: 50
-00:40:12.575 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:12.676 [Thread-1] INFO  ListenerSensores - Altitude: 49
-00:40:12.676 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:12.776 [Thread-1] INFO  ListenerSensores - Altitude: 48
-00:40:12.776 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:12.877 [Thread-1] INFO  ListenerSensores - Altitude: 47
-00:40:12.877 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:12.978 [Thread-1] INFO  ListenerSensores - Altitude: 46
-00:40:12.978 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:13.079 [Thread-1] INFO  ListenerSensores - Altitude: 45
-00:40:13.079 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:13.179 [Thread-1] INFO  ListenerSensores - Altitude: 44
-00:40:13.179 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:13.280 [Thread-1] INFO  ListenerSensores - Altitude: 43
-00:40:13.280 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:13.381 [Thread-1] INFO  ListenerSensores - Altitude: 42
-00:40:13.381 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:13.482 [Thread-1] INFO  ListenerSensores - Altitude: 41
-00:40:13.482 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:13.582 [Thread-1] INFO  ListenerSensores - Altitude: 40
-00:40:13.582 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:13.683 [Thread-1] INFO  ListenerSensores - Altitude: 39
-00:40:13.683 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:13.784 [Thread-1] INFO  ListenerSensores - Altitude: 38
-00:40:13.784 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:13.884 [Thread-1] INFO  ListenerSensores - Altitude: 37
-00:40:13.884 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:13.985 [Thread-1] INFO  ListenerSensores - Altitude: 36
-00:40:13.985 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:14.085 [Thread-1] INFO  ListenerSensores - Altitude: 35
-00:40:14.085 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:14.187 [Thread-1] INFO  ListenerSensores - Altitude: 34
-00:40:14.187 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:14.288 [Thread-1] INFO  ListenerSensores - Altitude: 33
-00:40:14.288 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:14.389 [Thread-1] INFO  ListenerSensores - Altitude: 32
-00:40:14.389 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:14.490 [Thread-1] INFO  ListenerSensores - Altitude: 31
-00:40:14.490 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:14.590 [Thread-1] INFO  ListenerSensores - Altitude: 30
-00:40:14.590 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:14.691 [Thread-1] INFO  ListenerSensores - Altitude: 29
-00:40:14.691 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:14.792 [Thread-1] INFO  ListenerSensores - Altitude: 28
-00:40:14.792 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:14.893 [Thread-1] INFO  ListenerSensores - Altitude: 27
-00:40:14.893 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:14.995 [Thread-1] INFO  ListenerSensores - Altitude: 26
-00:40:14.995 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:15.095 [Thread-1] INFO  ListenerSensores - Altitude: 25
-00:40:15.095 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:15.196 [Thread-1] INFO  ListenerSensores - Altitude: 24
-00:40:15.196 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:15.297 [Thread-1] INFO  ListenerSensores - Altitude: 23
-00:40:15.297 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:15.397 [Thread-1] INFO  ListenerSensores - Altitude: 22
-00:40:15.397 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:15.498 [Thread-1] INFO  ListenerSensores - Altitude: 21
-00:40:15.498 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:15.599 [Thread-1] INFO  ListenerSensores - Altitude: 20
-00:40:15.599 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:15.700 [Thread-1] INFO  ListenerSensores - Altitude: 19
-00:40:15.700 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:15.800 [Thread-1] INFO  ListenerSensores - Altitude: 18
-00:40:15.800 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:15.901 [Thread-1] INFO  ListenerSensores - Altitude: 17
-00:40:15.901 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:16.002 [Thread-1] INFO  ListenerSensores - Altitude: 16
-00:40:16.003 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:16.104 [Thread-1] INFO  ListenerSensores - Altitude: 15
-00:40:16.104 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:16.209 [Thread-1] INFO  ListenerSensores - Altitude: 14
-00:40:16.210 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:16.310 [Thread-1] INFO  ListenerSensores - Altitude: 13
-00:40:16.310 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:16.411 [Thread-1] INFO  ListenerSensores - Altitude: 12
-00:40:16.411 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:16.512 [Thread-1] INFO  ListenerSensores - Altitude: 11
-00:40:16.512 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:16.613 [Thread-1] INFO  ListenerSensores - Altitude: 10
-00:40:16.613 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:16.713 [Thread-1] INFO  ListenerSensores - Altitude: 9
-00:40:16.713 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:16.814 [Thread-1] INFO  ListenerSensores - Altitude: 8
-00:40:16.814 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:16.915 [Thread-1] INFO  ListenerSensores - Altitude: 7
-00:40:16.915 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:17.016 [Thread-1] INFO  ListenerSensores - Altitude: 6
-00:40:17.016 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:17.118 [Thread-1] INFO  ListenerSensores - Altitude: 5
-00:40:17.119 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:17.219 [Thread-1] INFO  ListenerSensores - Altitude: 4
-00:40:17.220 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:17.321 [Thread-1] INFO  ListenerSensores - Altitude: 3
-00:40:17.321 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:17.422 [Thread-1] INFO  ListenerSensores - Altitude: 2
-00:40:17.423 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:17.525 [Thread-1] INFO  ListenerSensores - Altitude: 1
-00:40:17.525 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:17.625 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:40:17.625 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:17.726 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:40:17.726 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:17.827 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:40:17.827 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:17.928 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:40:17.928 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:18.028 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:40:18.028 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:18.129 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:40:18.129 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:18.230 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:40:18.230 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:18.330 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:40:18.330 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:40:18.431 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:40:18.431 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:39.593 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:39.634 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:39.735 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:39.735 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:39.835 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:39.835 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:39.936 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:39.936 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:40.037 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:40.037 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:40.137 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:40.137 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:40.238 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:40.238 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:40.339 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:40.339 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:40.440 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:40.440 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:40.540 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:40.540 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:40.641 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:40.642 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:40.743 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:40.743 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:40.844 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:40.847 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:40.948 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:40.948 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:41.049 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:41.049 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:41.150 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:41.150 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:41.250 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:41.250 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:41.351 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:41.351 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:41.452 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:41.454 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:41.555 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:41.555 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:41.655 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:41.655 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:41.757 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:41.757 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:41.858 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:41.861 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:41.962 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:41.962 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:42.063 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:42.063 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:42.164 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:42.164 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:42.265 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:42.265 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:42.365 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:42.365 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:42.466 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:42.466 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:42.568 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:42.568 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:42.669 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:42.669 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:42.771 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:43:42.771 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:58.167 [Thread-1] INFO  ListenerSensores - Altitude: 100
-00:43:58.170 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:58.271 [Thread-1] INFO  ListenerSensores - Altitude: 99
-00:43:58.271 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:58.373 [Thread-1] INFO  ListenerSensores - Altitude: 98
-00:43:58.374 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:58.476 [Thread-1] INFO  ListenerSensores - Altitude: 97
-00:43:58.476 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:58.577 [Thread-1] INFO  ListenerSensores - Altitude: 96
-00:43:58.578 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:58.678 [Thread-1] INFO  ListenerSensores - Altitude: 95
-00:43:58.678 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:58.779 [Thread-1] INFO  ListenerSensores - Altitude: 94
-00:43:58.780 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:58.881 [Thread-1] INFO  ListenerSensores - Altitude: 93
-00:43:58.881 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:58.983 [Thread-1] INFO  ListenerSensores - Altitude: 92
-00:43:58.983 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:59.084 [Thread-1] INFO  ListenerSensores - Altitude: 91
-00:43:59.084 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:59.185 [Thread-1] INFO  ListenerSensores - Altitude: 90
-00:43:59.185 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:43:59.285 [Thread-1] INFO  ListenerSensores - Altitude: 89
-00:43:59.285 [Thread-1] WARN  ListenerSensores - Caindo!
-00:43:59.386 [Thread-1] INFO  ListenerSensores - Altitude: 88
-00:43:59.386 [Thread-1] WARN  ListenerSensores - Caindo!
-00:43:59.487 [Thread-1] INFO  ListenerSensores - Altitude: 87
-00:43:59.487 [Thread-1] WARN  ListenerSensores - Caindo!
-00:43:59.588 [Thread-1] INFO  ListenerSensores - Altitude: 86
-00:43:59.588 [Thread-1] WARN  ListenerSensores - Caindo!
-00:43:59.688 [Thread-1] INFO  ListenerSensores - Altitude: 85
-00:43:59.688 [Thread-1] WARN  ListenerSensores - Caindo!
-00:43:59.789 [Thread-1] INFO  ListenerSensores - Altitude: 84
-00:43:59.789 [Thread-1] WARN  ListenerSensores - Caindo!
-00:43:59.890 [Thread-1] INFO  ListenerSensores - Altitude: 83
-00:43:59.890 [Thread-1] WARN  ListenerSensores - Caindo!
-00:43:59.990 [Thread-1] INFO  ListenerSensores - Altitude: 82
-00:43:59.990 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:00.091 [Thread-1] INFO  ListenerSensores - Altitude: 81
-00:44:00.091 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:00.192 [Thread-1] INFO  ListenerSensores - Altitude: 80
-00:44:00.192 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:00.292 [Thread-1] INFO  ListenerSensores - Altitude: 79
-00:44:00.292 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:00.393 [Thread-1] INFO  ListenerSensores - Altitude: 78
-00:44:00.393 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:00.494 [Thread-1] INFO  ListenerSensores - Altitude: 77
-00:44:00.494 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:00.595 [Thread-1] INFO  ListenerSensores - Altitude: 76
-00:44:00.595 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:00.695 [Thread-1] INFO  ListenerSensores - Altitude: 75
-00:44:00.695 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:00.796 [Thread-1] INFO  ListenerSensores - Altitude: 74
-00:44:00.796 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:00.897 [Thread-1] INFO  ListenerSensores - Altitude: 73
-00:44:00.897 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:00.998 [Thread-1] INFO  ListenerSensores - Altitude: 72
-00:44:00.998 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:01.098 [Thread-1] INFO  ListenerSensores - Altitude: 71
-00:44:01.098 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:01.199 [Thread-1] INFO  ListenerSensores - Altitude: 70
-00:44:01.199 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:01.199 [Thread-1] INFO  ListenerSensores - QUEDA DETECTADA. ALTITUDE INICIAL: 90. ALTITUDE FINAL: 71.
-00:44:01.301 [Thread-1] INFO  ListenerSensores - Altitude: 69
-00:44:01.301 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:01.402 [Thread-1] INFO  ListenerSensores - Altitude: 68
-00:44:01.402 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:01.503 [Thread-1] INFO  ListenerSensores - Altitude: 67
-00:44:01.503 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:01.603 [Thread-1] INFO  ListenerSensores - Altitude: 66
-00:44:01.603 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:01.704 [Thread-1] INFO  ListenerSensores - Altitude: 65
-00:44:01.704 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:01.805 [Thread-1] INFO  ListenerSensores - Altitude: 64
-00:44:01.805 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:01.906 [Thread-1] INFO  ListenerSensores - Altitude: 63
-00:44:01.906 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:02.006 [Thread-1] INFO  ListenerSensores - Altitude: 62
-00:44:02.006 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:02.107 [Thread-1] INFO  ListenerSensores - Altitude: 61
-00:44:02.107 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:02.209 [Thread-1] INFO  ListenerSensores - Altitude: 60
-00:44:02.209 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:02.309 [Thread-1] INFO  ListenerSensores - Altitude: 59
-00:44:02.309 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:02.410 [Thread-1] INFO  ListenerSensores - Altitude: 58
-00:44:02.410 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:02.511 [Thread-1] INFO  ListenerSensores - Altitude: 57
-00:44:02.511 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:02.612 [Thread-1] INFO  ListenerSensores - Altitude: 56
-00:44:02.612 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:02.712 [Thread-1] INFO  ListenerSensores - Altitude: 55
-00:44:02.712 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:02.813 [Thread-1] INFO  ListenerSensores - Altitude: 54
-00:44:02.813 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:02.914 [Thread-1] INFO  ListenerSensores - Altitude: 53
-00:44:02.915 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:03.016 [Thread-1] INFO  ListenerSensores - Altitude: 52
-00:44:03.016 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:03.117 [Thread-1] INFO  ListenerSensores - Altitude: 51
-00:44:03.117 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:03.217 [Thread-1] INFO  ListenerSensores - Altitude: 50
-00:44:03.217 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:03.318 [Thread-1] INFO  ListenerSensores - Altitude: 49
-00:44:03.318 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:03.419 [Thread-1] INFO  ListenerSensores - Altitude: 48
-00:44:03.419 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:03.520 [Thread-1] INFO  ListenerSensores - Altitude: 47
-00:44:03.520 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:03.620 [Thread-1] INFO  ListenerSensores - Altitude: 46
-00:44:03.620 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:03.721 [Thread-1] INFO  ListenerSensores - Altitude: 45
-00:44:03.721 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:03.822 [Thread-1] INFO  ListenerSensores - Altitude: 44
-00:44:03.822 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:03.923 [Thread-1] INFO  ListenerSensores - Altitude: 43
-00:44:03.923 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:04.023 [Thread-1] INFO  ListenerSensores - Altitude: 42
-00:44:04.023 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:04.124 [Thread-1] INFO  ListenerSensores - Altitude: 41
-00:44:04.124 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:04.225 [Thread-1] INFO  ListenerSensores - Altitude: 40
-00:44:04.225 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:04.326 [Thread-1] INFO  ListenerSensores - Altitude: 39
-00:44:04.326 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:04.426 [Thread-1] INFO  ListenerSensores - Altitude: 38
-00:44:04.426 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:04.527 [Thread-1] INFO  ListenerSensores - Altitude: 37
-00:44:04.527 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:04.628 [Thread-1] INFO  ListenerSensores - Altitude: 36
-00:44:04.628 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:04.729 [Thread-1] INFO  ListenerSensores - Altitude: 35
-00:44:04.729 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:04.830 [Thread-1] INFO  ListenerSensores - Altitude: 34
-00:44:04.830 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:04.931 [Thread-1] INFO  ListenerSensores - Altitude: 33
-00:44:04.931 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:05.032 [Thread-1] INFO  ListenerSensores - Altitude: 32
-00:44:05.032 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:05.133 [Thread-1] INFO  ListenerSensores - Altitude: 31
-00:44:05.133 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:05.233 [Thread-1] INFO  ListenerSensores - Altitude: 30
-00:44:05.233 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:05.334 [Thread-1] INFO  ListenerSensores - Altitude: 29
-00:44:05.334 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:05.435 [Thread-1] INFO  ListenerSensores - Altitude: 28
-00:44:05.435 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:05.537 [Thread-1] INFO  ListenerSensores - Altitude: 27
-00:44:05.537 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:05.637 [Thread-1] INFO  ListenerSensores - Altitude: 26
-00:44:05.637 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:05.738 [Thread-1] INFO  ListenerSensores - Altitude: 25
-00:44:05.738 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:05.839 [Thread-1] INFO  ListenerSensores - Altitude: 24
-00:44:05.839 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:05.939 [Thread-1] INFO  ListenerSensores - Altitude: 23
-00:44:05.939 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:06.040 [Thread-1] INFO  ListenerSensores - Altitude: 22
-00:44:06.040 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:06.141 [Thread-1] INFO  ListenerSensores - Altitude: 21
-00:44:06.141 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:06.242 [Thread-1] INFO  ListenerSensores - Altitude: 20
-00:44:06.242 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:06.342 [Thread-1] INFO  ListenerSensores - Altitude: 19
-00:44:06.342 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:06.443 [Thread-1] INFO  ListenerSensores - Altitude: 18
-00:44:06.443 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:06.544 [Thread-1] INFO  ListenerSensores - Altitude: 17
-00:44:06.544 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:06.644 [Thread-1] INFO  ListenerSensores - Altitude: 16
-00:44:06.644 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:06.745 [Thread-1] INFO  ListenerSensores - Altitude: 15
-00:44:06.746 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:06.847 [Thread-1] INFO  ListenerSensores - Altitude: 14
-00:44:06.847 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:06.948 [Thread-1] INFO  ListenerSensores - Altitude: 13
-00:44:06.948 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:07.048 [Thread-1] INFO  ListenerSensores - Altitude: 12
-00:44:07.048 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:07.149 [Thread-1] INFO  ListenerSensores - Altitude: 11
-00:44:07.149 [Thread-1] WARN  ListenerSensores - Caindo!
-00:44:07.250 [Thread-1] INFO  ListenerSensores - Altitude: 10
-00:44:07.250 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:07.250 [Thread-1] INFO  ListenerSensores - QUEDA DETECTADA. ALTITUDE INICIAL: 40. ALTITUDE FINAL: 11.
-00:44:07.351 [Thread-1] INFO  ListenerSensores - Altitude: 9
-00:44:07.351 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:07.451 [Thread-1] INFO  ListenerSensores - Altitude: 8
-00:44:07.451 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:07.552 [Thread-1] INFO  ListenerSensores - Altitude: 7
-00:44:07.552 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:07.653 [Thread-1] INFO  ListenerSensores - Altitude: 6
-00:44:07.653 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:07.754 [Thread-1] INFO  ListenerSensores - Altitude: 5
-00:44:07.754 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:07.854 [Thread-1] INFO  ListenerSensores - Altitude: 4
-00:44:07.854 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:07.955 [Thread-1] INFO  ListenerSensores - Altitude: 3
-00:44:07.955 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:08.056 [Thread-1] INFO  ListenerSensores - Altitude: 2
-00:44:08.056 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:08.157 [Thread-1] INFO  ListenerSensores - Altitude: 1
-00:44:08.157 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:08.257 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:44:08.257 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:08.358 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:44:08.358 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:08.459 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:44:08.459 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:08.560 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:44:08.560 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:08.660 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:44:08.660 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:08.761 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:44:08.761 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:08.862 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:44:08.862 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:08.963 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:44:08.963 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:09.063 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:44:09.063 [Thread-1] INFO  ListenerSensores - Estabilizado.
-00:44:09.164 [Thread-1] INFO  ListenerSensores - Altitude: 0
-00:44:09.164 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:05.517 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:05.524 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:05.626 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:05.626 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:05.735 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:05.735 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:05.845 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:05.845 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:05.954 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:05.954 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:06.063 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:06.063 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:06.173 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:06.173 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:06.282 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:06.282 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:06.392 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:06.392 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:06.501 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:06.501 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:06.610 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:06.612 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:06.720 [Thread-1] INFO  ListenerSensores - Altitude: 961
+20:48:06.720 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:06.830 [Thread-1] INFO  ListenerSensores - Altitude: 961
+20:48:06.830 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:06.939 [Thread-1] INFO  ListenerSensores - Altitude: 959
+20:48:06.939 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:07.048 [Thread-1] INFO  ListenerSensores - Altitude: 961
+20:48:07.048 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:07.158 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:07.158 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:07.267 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:07.267 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:07.376 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:07.376 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:07.486 [Thread-1] INFO  ListenerSensores - Altitude: 961
+20:48:07.486 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:07.595 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:07.595 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:07.705 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:07.705 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:07.816 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:07.816 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:07.925 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:07.925 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:08.035 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:08.035 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:08.144 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:08.144 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:08.253 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:08.253 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:08.363 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:08.363 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:08.468 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:08.468 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:08.578 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:08.578 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:08.687 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:08.687 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:08.796 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:08.797 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:08.909 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:08.909 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:09.018 [Thread-1] INFO  ListenerSensores - Altitude: 961
+20:48:09.018 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:09.128 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:09.128 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:09.237 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:09.237 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:09.346 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:09.346 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:09.456 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:09.456 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:09.565 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:09.565 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:09.666 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:09.666 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:09.775 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:09.775 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:09.884 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:09.885 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:09.996 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:09.996 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:10.106 [Thread-1] INFO  ListenerSensores - Altitude: 961
+20:48:10.106 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:10.215 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:10.215 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:10.325 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:10.325 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:10.434 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:10.434 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:10.543 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:10.543 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:10.653 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:10.653 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:10.762 [Thread-1] INFO  ListenerSensores - Altitude: 961
+20:48:10.762 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:10.871 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:10.871 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:10.981 [Thread-1] INFO  ListenerSensores - Altitude: 961
+20:48:10.982 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:11.092 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:11.092 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:11.201 [Thread-1] INFO  ListenerSensores - Altitude: 961
+20:48:11.201 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:11.311 [Thread-1] INFO  ListenerSensores - Altitude: 961
+20:48:11.311 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:11.420 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:11.420 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:11.529 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:11.529 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:11.639 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:11.639 [Thread-1] WARN  ListenerSensores - Caindo!
+20:48:11.748 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:11.748 [Thread-1] WARN  ListenerSensores - Caindo!
+20:48:11.858 [Thread-1] INFO  ListenerSensores - Altitude: 959
+20:48:11.858 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:11.858 [Thread-1] INFO  ListenerSensores - QUEDA DETECTADA. ALTITUDE INICIAL: 960. ALTITUDE FINAL: 960.
+20:48:11.967 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:11.967 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:12.076 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:12.077 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:12.188 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:12.188 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:12.297 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:12.297 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:12.407 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:12.407 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:12.516 [Thread-1] INFO  ListenerSensores - Altitude: 959
+20:48:12.516 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:12.625 [Thread-1] INFO  ListenerSensores - Altitude: 959
+20:48:12.625 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:12.735 [Thread-1] INFO  ListenerSensores - Altitude: 959
+20:48:12.735 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:12.844 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:12.844 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:12.953 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:12.953 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:13.063 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:13.063 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:13.172 [Thread-1] INFO  ListenerSensores - Altitude: 959
+20:48:13.173 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:13.285 [Thread-1] INFO  ListenerSensores - Altitude: 959
+20:48:13.285 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:13.394 [Thread-1] INFO  ListenerSensores - Altitude: 959
+20:48:13.394 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:13.496 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:13.496 [Thread-1] WARN  ListenerSensores - Caindo!
+20:48:13.605 [Thread-1] INFO  ListenerSensores - Altitude: 959
+20:48:13.605 [Thread-1] WARN  ListenerSensores - Caindo!
+20:48:13.706 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:13.706 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:13.706 [Thread-1] INFO  ListenerSensores - QUEDA DETECTADA. ALTITUDE INICIAL: 959. ALTITUDE FINAL: 959.
+20:48:13.809 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:13.809 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:13.918 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:13.918 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:14.028 [Thread-1] INFO  ListenerSensores - Altitude: 959
+20:48:14.028 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:48:14.137 [Thread-1] INFO  ListenerSensores - Altitude: 960
+20:48:14.137 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:23.327 [Thread-1] INFO  ListenerSensores - Altitude: 100
+20:49:23.341 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:23.451 [Thread-1] INFO  ListenerSensores - Altitude: 99
+20:49:23.451 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:23.567 [Thread-1] INFO  ListenerSensores - Altitude: 98
+20:49:23.567 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:23.676 [Thread-1] INFO  ListenerSensores - Altitude: 97
+20:49:23.676 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:23.785 [Thread-1] INFO  ListenerSensores - Altitude: 96
+20:49:23.785 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:23.895 [Thread-1] INFO  ListenerSensores - Altitude: 95
+20:49:23.895 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:24.004 [Thread-1] INFO  ListenerSensores - Altitude: 94
+20:49:24.004 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:24.113 [Thread-1] INFO  ListenerSensores - Altitude: 93
+20:49:24.113 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:24.223 [Thread-1] INFO  ListenerSensores - Altitude: 92
+20:49:24.223 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:24.332 [Thread-1] INFO  ListenerSensores - Altitude: 91
+20:49:24.335 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:24.447 [Thread-1] INFO  ListenerSensores - Altitude: 90
+20:49:24.447 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:24.556 [Thread-1] INFO  ListenerSensores - Altitude: 89
+20:49:24.556 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:24.666 [Thread-1] INFO  ListenerSensores - Altitude: 88
+20:49:24.666 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:24.775 [Thread-1] INFO  ListenerSensores - Altitude: 87
+20:49:24.775 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:24.884 [Thread-1] INFO  ListenerSensores - Altitude: 86
+20:49:24.884 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:24.994 [Thread-1] INFO  ListenerSensores - Altitude: 85
+20:49:24.994 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:25.103 [Thread-1] INFO  ListenerSensores - Altitude: 84
+20:49:25.103 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:25.212 [Thread-1] INFO  ListenerSensores - Altitude: 83
+20:49:25.212 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:25.322 [Thread-1] INFO  ListenerSensores - Altitude: 82
+20:49:25.322 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:25.431 [Thread-1] INFO  ListenerSensores - Altitude: 81
+20:49:25.433 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:25.544 [Thread-1] INFO  ListenerSensores - Altitude: 80
+20:49:25.544 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:25.654 [Thread-1] INFO  ListenerSensores - Altitude: 79
+20:49:25.654 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:25.763 [Thread-1] INFO  ListenerSensores - Altitude: 78
+20:49:25.763 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:25.879 [Thread-1] INFO  ListenerSensores - Altitude: 77
+20:49:25.879 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:25.988 [Thread-1] INFO  ListenerSensores - Altitude: 76
+20:49:25.988 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:26.098 [Thread-1] INFO  ListenerSensores - Altitude: 75
+20:49:26.098 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:26.206 [Thread-1] INFO  ListenerSensores - Altitude: 74
+20:49:26.206 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:26.316 [Thread-1] INFO  ListenerSensores - Altitude: 73
+20:49:26.316 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:26.425 [Thread-1] INFO  ListenerSensores - Altitude: 72
+20:49:26.425 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:26.534 [Thread-1] INFO  ListenerSensores - Altitude: 71
+20:49:26.541 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:26.651 [Thread-1] INFO  ListenerSensores - Altitude: 70
+20:49:26.651 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:26.651 [Thread-1] INFO  ListenerSensores - QUEDA DETECTADA. ALTITUDE INICIAL: 90. ALTITUDE FINAL: 71.
+20:49:26.761 [Thread-1] INFO  ListenerSensores - Altitude: 69
+20:49:26.761 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:26.870 [Thread-1] INFO  ListenerSensores - Altitude: 68
+20:49:26.870 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:26.979 [Thread-1] INFO  ListenerSensores - Altitude: 67
+20:49:26.979 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:27.089 [Thread-1] INFO  ListenerSensores - Altitude: 66
+20:49:27.089 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:27.198 [Thread-1] INFO  ListenerSensores - Altitude: 65
+20:49:27.198 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:27.308 [Thread-1] INFO  ListenerSensores - Altitude: 64
+20:49:27.308 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:27.417 [Thread-1] INFO  ListenerSensores - Altitude: 63
+20:49:27.417 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:27.526 [Thread-1] INFO  ListenerSensores - Altitude: 62
+20:49:27.526 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:27.636 [Thread-1] INFO  ListenerSensores - Altitude: 61
+20:49:27.637 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:27.747 [Thread-1] INFO  ListenerSensores - Altitude: 60
+20:49:27.747 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:27.856 [Thread-1] INFO  ListenerSensores - Altitude: 59
+20:49:27.856 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:27.966 [Thread-1] INFO  ListenerSensores - Altitude: 58
+20:49:27.966 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:28.075 [Thread-1] INFO  ListenerSensores - Altitude: 57
+20:49:28.075 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:28.185 [Thread-1] INFO  ListenerSensores - Altitude: 56
+20:49:28.185 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:28.294 [Thread-1] INFO  ListenerSensores - Altitude: 55
+20:49:28.294 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:28.403 [Thread-1] INFO  ListenerSensores - Altitude: 54
+20:49:28.403 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:28.513 [Thread-1] INFO  ListenerSensores - Altitude: 53
+20:49:28.513 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:28.615 [Thread-1] INFO  ListenerSensores - Altitude: 52
+20:49:28.615 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:28.725 [Thread-1] INFO  ListenerSensores - Altitude: 51
+20:49:28.726 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:28.836 [Thread-1] INFO  ListenerSensores - Altitude: 50
+20:49:28.836 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:28.945 [Thread-1] INFO  ListenerSensores - Altitude: 49
+20:49:28.945 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:29.055 [Thread-1] INFO  ListenerSensores - Altitude: 48
+20:49:29.055 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:29.164 [Thread-1] INFO  ListenerSensores - Altitude: 47
+20:49:29.164 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:29.273 [Thread-1] INFO  ListenerSensores - Altitude: 46
+20:49:29.273 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:29.383 [Thread-1] INFO  ListenerSensores - Altitude: 45
+20:49:29.383 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:29.492 [Thread-1] INFO  ListenerSensores - Altitude: 44
+20:49:29.492 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:29.602 [Thread-1] INFO  ListenerSensores - Altitude: 43
+20:49:29.602 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:29.711 [Thread-1] INFO  ListenerSensores - Altitude: 42
+20:49:29.711 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:29.812 [Thread-1] INFO  ListenerSensores - Altitude: 41
+20:49:29.813 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:29.925 [Thread-1] INFO  ListenerSensores - Altitude: 40
+20:49:29.925 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:30.034 [Thread-1] INFO  ListenerSensores - Altitude: 39
+20:49:30.034 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:30.143 [Thread-1] INFO  ListenerSensores - Altitude: 38
+20:49:30.143 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:30.253 [Thread-1] INFO  ListenerSensores - Altitude: 37
+20:49:30.253 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:30.362 [Thread-1] INFO  ListenerSensores - Altitude: 36
+20:49:30.362 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:30.472 [Thread-1] INFO  ListenerSensores - Altitude: 35
+20:49:30.472 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:30.581 [Thread-1] INFO  ListenerSensores - Altitude: 34
+20:49:30.581 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:30.690 [Thread-1] INFO  ListenerSensores - Altitude: 33
+20:49:30.690 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:30.800 [Thread-1] INFO  ListenerSensores - Altitude: 32
+20:49:30.800 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:30.909 [Thread-1] INFO  ListenerSensores - Altitude: 31
+20:49:30.910 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:31.021 [Thread-1] INFO  ListenerSensores - Altitude: 30
+20:49:31.021 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:31.130 [Thread-1] INFO  ListenerSensores - Altitude: 29
+20:49:31.130 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:31.240 [Thread-1] INFO  ListenerSensores - Altitude: 28
+20:49:31.240 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:31.349 [Thread-1] INFO  ListenerSensores - Altitude: 27
+20:49:31.349 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:31.459 [Thread-1] INFO  ListenerSensores - Altitude: 26
+20:49:31.459 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:31.568 [Thread-1] INFO  ListenerSensores - Altitude: 25
+20:49:31.568 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:31.677 [Thread-1] INFO  ListenerSensores - Altitude: 24
+20:49:31.677 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:31.787 [Thread-1] INFO  ListenerSensores - Altitude: 23
+20:49:31.787 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:31.896 [Thread-1] INFO  ListenerSensores - Altitude: 22
+20:49:31.896 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:32.005 [Thread-1] INFO  ListenerSensores - Altitude: 21
+20:49:32.006 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:32.117 [Thread-1] INFO  ListenerSensores - Altitude: 20
+20:49:32.117 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:32.226 [Thread-1] INFO  ListenerSensores - Altitude: 19
+20:49:32.226 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:32.335 [Thread-1] INFO  ListenerSensores - Altitude: 18
+20:49:32.335 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:32.445 [Thread-1] INFO  ListenerSensores - Altitude: 17
+20:49:32.445 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:32.554 [Thread-1] INFO  ListenerSensores - Altitude: 16
+20:49:32.554 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:32.664 [Thread-1] INFO  ListenerSensores - Altitude: 15
+20:49:32.664 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:32.773 [Thread-1] INFO  ListenerSensores - Altitude: 14
+20:49:32.773 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:32.882 [Thread-1] INFO  ListenerSensores - Altitude: 13
+20:49:32.882 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:32.992 [Thread-1] INFO  ListenerSensores - Altitude: 12
+20:49:32.992 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:33.101 [Thread-1] INFO  ListenerSensores - Altitude: 11
+20:49:33.102 [Thread-1] WARN  ListenerSensores - Caindo!
+20:49:33.214 [Thread-1] INFO  ListenerSensores - Altitude: 10
+20:49:33.214 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:33.214 [Thread-1] INFO  ListenerSensores - QUEDA DETECTADA. ALTITUDE INICIAL: 40. ALTITUDE FINAL: 11.
+20:49:33.323 [Thread-1] INFO  ListenerSensores - Altitude: 9
+20:49:33.323 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:33.432 [Thread-1] INFO  ListenerSensores - Altitude: 8
+20:49:33.432 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:33.542 [Thread-1] INFO  ListenerSensores - Altitude: 7
+20:49:33.542 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:33.657 [Thread-1] INFO  ListenerSensores - Altitude: 6
+20:49:33.657 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:33.767 [Thread-1] INFO  ListenerSensores - Altitude: 5
+20:49:33.767 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:33.872 [Thread-1] INFO  ListenerSensores - Altitude: 4
+20:49:33.872 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:33.986 [Thread-1] INFO  ListenerSensores - Altitude: 3
+20:49:33.986 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:34.096 [Thread-1] INFO  ListenerSensores - Altitude: 2
+20:49:34.096 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:34.205 [Thread-1] INFO  ListenerSensores - Altitude: 1
+20:49:34.206 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:34.316 [Thread-1] INFO  ListenerSensores - Altitude: 0
+20:49:34.316 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:34.426 [Thread-1] INFO  ListenerSensores - Altitude: 0
+20:49:34.426 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:34.535 [Thread-1] INFO  ListenerSensores - Altitude: 0
+20:49:34.535 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:34.644 [Thread-1] INFO  ListenerSensores - Altitude: 0
+20:49:34.644 [Thread-1] INFO  ListenerSensores - Estabilizado.
+20:49:34.754 [Thread-1] INFO  ListenerSensores - Altitude: 0
+20:49:34.754 [Thread-1] INFO  ListenerSensores - Estabilizado.

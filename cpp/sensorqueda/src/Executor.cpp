@@ -22,7 +22,7 @@ struct Dados { //struct (estrutura de dados) e usado pra dar mais performance, j
 int main(int argc, char **argv) {
 
 	//criar uma instancia da classe de comunicacao
-	Comunicacao com = Comunicacao("COM3"); //verificar a porta correta na interface do arduino, no linux sera diferente
+	Comunicacao com = Comunicacao("COM5"); //verificar a porta correta na interface do arduino, no linux sera diferente
 
 	//iniciou a comunicacao
 	if (com.iniciar() == EXIT_SUCCESS) {  //se foi iniciado com sucesso
