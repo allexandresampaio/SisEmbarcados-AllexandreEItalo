@@ -15,6 +15,7 @@ public class Executor {
 		Thread t = new Thread(async);
 		t.start();
 		
+		// FIXME nao estah sendo utilizado o mecanismo de interrupcao da thread (o tjoin nao tem efeito)
 		/*for (int i = 0; i < 10; i++){
 			Thread.sleep(1000);
 		}
