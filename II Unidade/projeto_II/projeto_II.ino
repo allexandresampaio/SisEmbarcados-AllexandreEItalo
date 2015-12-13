@@ -27,8 +27,8 @@ struct info{
   int id;
   int umidade;
   int temperatura;
-  boolean vibracao;
-  boolean presenca;
+  int vibracao;
+  int presenca;
 } infoRF ;
 
 void setup() {
@@ -37,7 +37,7 @@ void setup() {
   emissor.enableTransmit(4);
   receptor.enableReceive(0);//Pega o primeiro pino de interrupcao
 
-  //ConfiguraÃ§Ã£o do acelerometro para deteccao de vibracao
+  //Configuracao do acelerometro para deteccao de vibracao
   acel.powerOn();
 
   acel.setInactivityX(1); //Define INATIVIDADE (repouso)
@@ -145,17 +145,17 @@ void enviarParaUSB(){
 }
 
 int extrairRFID(long info){
-  int rf = (info & ‭66846720‬) >> DESLOC_RFID;
+  int rf = (info & 66846720) >> DESLOC_RFID;
   return rf;
 }
 
-boolean extrairPresenca(long info){
-  boolean presenca = (info & ‭131072‬) >> DESLOC_PRESENCA;
+int extrairPresenca(long info){
+  int presenca = (info & 131072) >> DESLOC_PRESENCA;
   return presenca;
 }
 
-boolean extrairVibracao(long info){
-  boolean vibracao = (info & 65536) >> DESLOC_VIBRACAO;
+int extrairVibracao(long info){
+  int vibracao = (info & 65536) >> DESLOC_VIBRACAO;
   return vibracao;
 }
 
@@ -168,3 +168,5 @@ int extrairUmidade(long info){
   int umidade = (info & 255);
   return umidade;
 }
+
+
