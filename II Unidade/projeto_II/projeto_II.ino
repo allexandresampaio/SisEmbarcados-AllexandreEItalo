@@ -14,15 +14,15 @@ ADXL345 acel = ADXL345();
 #define P_TEMPERATURA 1
 #define P_PRESENCA 3
 
+
 #define RFID 1298
 
 //Define os valores que serao usados no deslocamento
-
 #define DESLOC_RFID 18
 #define DESLOC_PRESENCA 17
 #define DESLOC_VIBRACAO 16
 #define DESLOC_TEMPERATURA 8
-
+//umidade 0-7
 struct info{
   int id;
   int umidade;
@@ -69,41 +69,46 @@ void setup() {
 }
 
 long lerSensoresRF(){
-  
-  long umidade = analogRead(P_UMIDADE);
-  long temperatura = analogRead(P_TEMPERATURA);
   long presenca = digitalRead(P_PRESENCA);
 
   //Para presenca o valor zero significa inatividade
   long vibracao = 0;
-
-  //Mapeamento do potenciometro
-  umidade = map(umidade, 0, 1023, 0, 100);
-  temperatura = map(temperatura, 0, 1023, 0, 20);
-
   //Pega o interruptor da deteccao de movimento
   byte interruptAcel = acel.getInterruptSource();
-
   //Se ocorrer uma interrupcao, a vibracao eh setado como true
   if(acel.triggered(interruptAcel, ADXL345_INT_ACTIVITY_BIT)){
     vibracao = 1;
   }
+
+  long umidade = analogRead(P_UMIDADE);
+  long temperatura = analogRead(P_TEMPERATURA);
+  //Mapeamento do potenciometro
+  umidade = map(umidade, 0, 1023, 0, 100);
+  temperatura = map(temperatura, 0, 1023, 0, 20);
+
+/*
   long rf = RFID;
+  
   long info = rf << DESLOC_RFID;
   info = info | (presenca << DESLOC_PRESENCA);
   info = info | (vibracao << DESLOC_VIBRACAO);
   info = info | (temperatura << DESLOC_TEMPERATURA);
   info = info | umidade;
+*/
 
-  return info;
+
+long id = RFID;
+  long info = id << DESLOCAMENTO_RFID;
+  info = info | (presenca << DESLOCAMENTO_PRESENCA);
+  info = info | (vibraco << DESLOCAMENTO_VIBRACAO);
+  info = info | (vibraco << DESLOCAMENTO_TEMPERATURA);
+  info = info | umidade;
+   return info;
 }
 
 void loop() {
   // emissao de dados
   emitir(lerSensoresRF());
-
-  //Delay de 3 segundos para sincronizar com o sensor de presenca
-  delay(3000);
 
   //recepcao de dados
   long info = receber();
@@ -112,18 +117,22 @@ void loop() {
     infoRF.vibracao = extrairVibracao(info);
     infoRF.umidade = extrairUmidade(info);
     infoRF.temperatura = extrairTemperatura(info);
+    infoRF.id = extrairRFID(info);
     enviarParaUSB();
   }
+  
+  Serial.println("ID = "+infoRF.id);
+  Serial.println("Temperatura = "+infoRF.temperatura);
+  Serial.println("Presenca = "+infoRF.presenca);
+  Serial.println("Umidade = "+infoRF.umidade);
+  Serial.println("Vibracao = "+infoRF.vibracao);
+  
+  //Delay de 3 segundos para sincronizar com o sensor de presenca
+  //delay(3000);
 }
-
 
 void emitir(long info){
   emissor.send(info, 32);
-  Serial.println("ID = "+extrairRFID(info));
-  Serial.println("Temperatura = "+extrairTemperatura(info));
-  Serial.println("Presenca = "+extrairPresenca(info));
-  Serial.println("Umidade = "+extrairUmidade(info));
-  Serial.println("Vibracao = "+extrairVibracao(info));
 }
 
 long receber(){
@@ -138,10 +147,10 @@ long receber(){
 
 
 void enviarParaUSB(){
-  char buff[sizeof(infoRF)]={0};
-  memcpy(&buff, &infoRF, sizeof(infoRF));
-  Serial.print('I');
-  Serial.write(buff, sizeof(infoRF));
+//  char buff[sizeof(infoRF)]={0};
+//  memcpy(&buff, &infoRF, sizeof(infoRF));
+//  Serial.print('I');
+//  Serial.write(buff, sizeof(infoRF));
 }
 
 int extrairRFID(long info){
@@ -168,5 +177,3 @@ int extrairUmidade(long info){
   int umidade = (info & 255);
   return umidade;
 }
-
-
