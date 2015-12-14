@@ -86,7 +86,6 @@ long lerSensoresRF(){
   umidade = map(umidade, 0, 1023, 0, 100);
   temperatura = map(temperatura, 0, 1023, 0, 20);
 
-/*
   long rf = RFID;
   
   long info = rf << DESLOC_RFID;
@@ -94,16 +93,15 @@ long lerSensoresRF(){
   info = info | (vibracao << DESLOC_VIBRACAO);
   info = info | (temperatura << DESLOC_TEMPERATURA);
   info = info | umidade;
-*/
 
 
-long id = RFID;
-  long info = id << DESLOCAMENTO_RFID;
-  info = info | (presenca << DESLOCAMENTO_PRESENCA);
-  info = info | (vibraco << DESLOCAMENTO_VIBRACAO);
-  info = info | (vibraco << DESLOCAMENTO_TEMPERATURA);
-  info = info | umidade;
-   return info;
+//long id = RFID;
+//  long info = id << DESLOCAMENTO_RFID;
+//  info = info | (presenca << DESLOCAMENTO_PRESENCA);
+//  info = info | (vibraco << DESLOCAMENTO_VIBRACAO);
+//  info = info | (vibraco << DESLOCAMENTO_TEMPERATURA);
+//  info = info | umidade;
+//   return info;
 }
 
 void loop() {
