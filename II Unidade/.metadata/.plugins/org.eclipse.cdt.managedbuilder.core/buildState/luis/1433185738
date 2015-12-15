@@ -1,0 +1,11 @@
+#
+#Tue Dec 15 17:53:22 GMT-03:00 2015
+include/Comunicacao.h=1
+src/Extern.cpp=1
+Debug/src/Executor.o=1
+Debug/src/Comunicacao.o=1
+src/Executor.cpp=1
+Debug/src/Extern.o=1
+Debug/luis.exe=1
+src/Comunicacao.cpp=1
+include/Extern.h=1

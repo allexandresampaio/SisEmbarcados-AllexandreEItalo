@@ -1,0 +1,26 @@
+/*
+ * Extern.h
+ *
+ *  Created on: 15/12/2015
+ *      Author: Italo Miranda
+ */
+
+#include "Extern.h"
+#include <Comunicacao.h>
+#include <cstdlib>
+
+
+struct InfoRF{
+	short id;
+	short umidade;
+	short temperatura;
+	short vibracao;
+	short presenca;
+}infoRF;
+
+Comunicacao com = NULL;
+
+
+
+
+

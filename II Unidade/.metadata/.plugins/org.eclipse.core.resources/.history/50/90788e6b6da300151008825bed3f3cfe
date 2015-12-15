@@ -1,0 +1,26 @@
+/*
+ * Comunicacao.cpp
+ *
+ *  Created on: 15/12/2015
+ *      Author: Italo Miranda
+ */
+
+#include "Comunicacao.h"
+#ifdef __linux__
+#include <stdio.h>
+#include <fcntl.h>
+#include <errno.h>
+#endif
+
+Comunicacao::Comunicacao(char* porta) {
+	hPorta = 0;
+	this->porta = porta;
+}
+
+Comunicacao::iniciar() {
+
+	int resultado = EXIT_SUCCESS;
+
+
+}
+

@@ -1,0 +1,17 @@
+/*
+ * Comunicacao.h
+ *
+ *  Created on: 15/12/2015
+ *      Author: Italo Miranda
+ */
+
+#ifndef SRC_COMUNICACAO_H_
+#define SRC_COMUNICACAO_H_
+
+class Comunicacao {
+public:
+	Comunicacao();
+	virtual ~Comunicacao();
+};
+
+#endif /* SRC_COMUNICACAO_H_ */

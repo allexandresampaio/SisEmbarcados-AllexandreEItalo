@@ -1,0 +1,14 @@
+/*
+ * Extern.h
+ *
+ *  Created on: 15/12/2015
+ *      Author: Italo Miranda
+ */
+
+#ifndef SRC_EXTERN_H_
+#define SRC_EXTERN_H_
+
+class Extern {
+};
+
+#endif /* SRC_EXTERN_H_ */

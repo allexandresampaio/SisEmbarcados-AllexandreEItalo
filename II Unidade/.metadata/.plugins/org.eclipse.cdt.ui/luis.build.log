@@ -1,0 +1,10 @@
+17:53:21 **** Rebuild of configuration Debug for project luis ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Comunicacao.o" "..\\src\\Comunicacao.cpp" 
+..\src\Comunicacao.cpp:8:25: fatal error: Comunicacao.h: No such file or directory
+ #include "Comunicacao.h"
+                         ^
+compilation terminated.
+
+17:53:22 Build Finished (took 481ms)
+

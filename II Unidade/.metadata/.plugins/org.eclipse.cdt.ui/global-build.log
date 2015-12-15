@@ -1,0 +1,27 @@
+17:53:20 **** Rebuild of configuration Debug for project comunicacaoSensores ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Comunicacao.o" "..\\src\\Comunicacao.cpp" 
+..\src\Comunicacao.cpp:25:0: error: unterminated #if
+ #if _WIN32 || _WIN64
+ ^
+..\src\Comunicacao.cpp:16:1: error: prototype for 'Comunicacao::Comunicacao(char*)' does not match any in class 'Comunicacao'
+ Comunicacao::Comunicacao(char* porta) {
+ ^
+In file included from ..\src\Comunicacao.cpp:8:0:
+..\src\../include/Comunicacao.h:11:7: error: candidates are: Comunicacao::Comunicacao(const Comunicacao&)
+ class Comunicacao {
+       ^
+..\src\../include/Comunicacao.h:13:2: error:                 Comunicacao::Comunicacao()
+  Comunicacao();
+  ^
+..\src\Comunicacao.cpp:21:22: error: ISO C++ forbids declaration of 'iniciar' with no type [-fpermissive]
+ Comunicacao::iniciar() {
+                      ^
+..\src\Comunicacao.cpp:21:22: error: no 'int Comunicacao::iniciar()' member function declared in class 'Comunicacao'
+17:53:21 **** Rebuild of configuration Debug for project luis ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Comunicacao.o" "..\\src\\Comunicacao.cpp" 
+..\src\Comunicacao.cpp:8:25: fatal error: Comunicacao.h: No such file or directory
+ #include "Comunicacao.h"
+                         ^
+compilation terminated.
