@@ -110,7 +110,7 @@ void loop() {
       infoRF.temperatura = extrairTemperatura(info);
       infoRF.vibracao = extrairVibracao(info);
       infoRF.presenca = extrairPresenca(info);
-      infoRF.id = 
+      infoRF.id = extrairRFID(info);
       //enviarParaUSB();
       Serial.println("___________________");
       Serial.print("ID = ");
