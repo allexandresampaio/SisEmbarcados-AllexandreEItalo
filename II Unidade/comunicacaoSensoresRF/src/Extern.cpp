@@ -28,15 +28,14 @@ int iniciar(char* porta){
 int ler(){
 	int resultado = EXIT_FAILURE;
 	char ci = 0, cf = 0;
-	if (com.ler(&ci, sizeof(ci))){
-			if (com.ler((char*) &infoRF, sizeof(InfoRF)) == 0){
-				if((com.ler(&cf, sizeof(char)) == 0) && (cf == 'F')){
+	if ((com.ler(&ci, sizeof(char)) == 0) && (ci == 'I')) {
+			if (com.ler((char*) &infoRF, sizeof(InfoRF)) == 0) {
+				if ((com.ler(&cf, sizeof(char)) == 0) && (cf == 'F')) {
 					resultado = EXIT_SUCCESS;
 				}
-
 			}
 		}
-		return resultado;
+	return resultado;
 }
 
 int getId(){

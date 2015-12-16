@@ -105,25 +105,25 @@ void loop() {
   //recepcao de dados
   long info = receber();
   if(info != -1){
-    //if (extrairRFID(info) == 10){
+    if (extrairRFID(info) == 10){
       infoRF.umidade = extrairUmidade(info);
       infoRF.temperatura = extrairTemperatura(info);
       infoRF.vibracao = extrairVibracao(info);
       infoRF.presenca = extrairPresenca(info);
       infoRF.id = extrairRFID(info);
-      //enviarParaUSB();
-      Serial.println("___________________");
-      Serial.print("ID = ");
-      Serial.println(infoRF.id);
-      Serial.print("Temperatura = ");
-      Serial.println(infoRF.temperatura);
-      Serial.print("Presenca = ");
-      Serial.println(infoRF.presenca);
-      Serial.print("Umidade = ");
-      Serial.println(infoRF.umidade);
-      Serial.print("Vibracao = ");
-      Serial.println(infoRF.vibracao);
-    //}
+      enviarParaUSB();
+//      Serial.println("___________________");
+//      Serial.print("ID = ");
+//      Serial.println(infoRF.id);
+//      Serial.print("Temperatura = ");
+//      Serial.println(infoRF.temperatura);
+//      Serial.print("Presenca = ");
+//      Serial.println(infoRF.presenca);
+//      Serial.print("Umidade = ");
+//      Serial.println(infoRF.umidade);
+//      Serial.print("Vibracao = ");
+//      Serial.println(infoRF.vibracao);
+    }
   }
    
   //Delay de 3 segundos para sincronizar com o sensor de presenca
@@ -159,6 +159,6 @@ void enviarParaUSB(){
   char buff[sizeof(infoRF)]={0};
   memcpy(&buff, &infoRF, sizeof(infoRF));
   Serial.write('I');
-  Serial.write(buff, sizeof(infoRF));
+  Serial.write((uint8_t*) buff, sizeof(infoRF));
   Serial.write('F');
 }

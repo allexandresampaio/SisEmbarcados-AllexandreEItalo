@@ -10,7 +10,7 @@
 
 using namespace std;
 
-struct InfoRF{
+struct InfoRF {
 	short id;
 	short umidade;
 	short temperatura;
@@ -18,25 +18,27 @@ struct InfoRF{
 	short presenca;
 };
 
-
-int main(int argc, char **argv){
-	InfoRF info = {0}
+int main(int argc, char **argv) {
+	InfoRF info = { 0 };
+	char ci = 0, cf = 0;
 	Comunicacao com("COM3");
 	com.iniciar();
 
-	while(true){
-		if(com.ler((char*) &info, sizeof(InfoRF)) == 0){
-			cout << "id = " << info.id << endl;
-			cout << "umidade = " << info.umidade << endl;
-			cout << "temperatura = " << info.temperatura << endl;
-			cout << "vibracao = " << info.vibracao << endl;
-			cout << "presenca = " << info.presenca <<endl;
+	while (true) {
+		if ((com.ler(&ci, sizeof(char)) == 0) && (ci == 'I')) {
+			if (com.ler((char*) &info, sizeof(InfoRF)) == 0) {
+				if ((com.ler(&cf, sizeof(char)) == 0) && (cf == 'F')) {
+					cout << "id = " << info.id << endl;
+					cout << "umidade = " << info.umidade << endl;
+					cout << "temperatura = " << info.temperatura << endl;
+					cout << "vibracao = " << info.vibracao << endl;
+					cout << "presenca = " << info.presenca << endl;
+				}
+			}
 		}
 
-		Sleep(50);
+		Sleep(3000);
 	}
 
-	return(0);
+	return (0);
 }
-
-

@@ -3,14 +3,13 @@
  *
  */
 
-#include <stdlib.h>
 #ifndef COMUNICACAO_H_
 #define COMUNICACAO_H_
 
+#include <stdlib.h>
+
 #if _WIN32 || _WIN64
 	#include <windows.h>
-
-
 #endif
 
 #ifdef __linux__
@@ -46,3 +45,4 @@ public:
 };
 
 
+#endif /* COMUNICACAO_H_ */
