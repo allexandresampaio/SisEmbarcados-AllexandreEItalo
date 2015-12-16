@@ -2,9 +2,7 @@ package br.edu.ifba.se.winekeeper.contexto;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
-
 import com.sun.faces.config.ConfigureListener;
-
 import br.edu.ifba.se.winekeeper.conector.SingleConector;
 import br.edu.ifba.se.winekeeper.leitor.LeitorAssincrono;
 
