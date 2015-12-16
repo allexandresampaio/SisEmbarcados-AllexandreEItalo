@@ -14,14 +14,14 @@ import br.edu.ifba.se.winekeeper.conector.SingleConector;
 public class Monitor {
 
 	private MeterGaugeChartModel modeloMedidorTemperatura;
-	private MeterGaugeChartModel modeloMedidorBatimentos;
+	private MeterGaugeChartModel modeloMedidorUmidade;
 	
 	public MeterGaugeChartModel getModeloMedidorTemperatura() {
 		return modeloMedidorTemperatura;
 	}
 
-	public MeterGaugeChartModel getModeloMedidorBatimentos() {
-		return modeloMedidorBatimentos;
+	public MeterGaugeChartModel getModeloMedidorUmidade() {
+		return modeloMedidorUmidade;
 	}
 
 	@PostConstruct
@@ -34,35 +34,42 @@ public class Monitor {
 		modeloMedidorTemperatura.setTitle("Temperatura");
 		modeloMedidorTemperatura.setGaugeLabel("Graus Celsius");
 		
-		modeloMedidorBatimentos = criarModeloBatimentos();
-		modeloMedidorBatimentos.setTitle("Batimentos");
-		modeloMedidorBatimentos.setGaugeLabel("BPM");
+		modeloMedidorUmidade = criarModeloUmidade();
+		modeloMedidorUmidade.setTitle("Umidade");
+		modeloMedidorUmidade.setGaugeLabel("Umidade %");
 		
 	}
 
 	private MeterGaugeChartModel criarModeloTemperatura() {
 		List<Number> marcadores = new ArrayList<Number>();
 		marcadores.add(0); 
+		marcadores.add(5);
 		marcadores.add(10);
+		marcadores.add(15);
 		marcadores.add(20);
+		marcadores.add(25);
 		marcadores.add(30);
-		marcadores.add(40);
+		marcadores.add(35);
+		marcadores.add(40); 
+		marcadores.add(45);
 		marcadores.add(50);
-		
+				
 		return new MeterGaugeChartModel(0, marcadores);
 	}
 
-	private MeterGaugeChartModel criarModeloBatimentos() {
+	private MeterGaugeChartModel criarModeloUmidade() {
 		List<Number> marcadores = new ArrayList<Number>();
 		marcadores.add(0); 
-		marcadores.add(25);
+		marcadores.add(10);
+		marcadores.add(20);
+		marcadores.add(30);
+		marcadores.add(40); 
 		marcadores.add(50);
-		marcadores.add(75);
+		marcadores.add(60);
+		marcadores.add(70);
+		marcadores.add(80);
+		marcadores.add(90);
 		marcadores.add(100);
-		marcadores.add(125);
-		marcadores.add(150);
-		marcadores.add(175);
-		marcadores.add(200);
 		
 		return new MeterGaugeChartModel(0, marcadores);
 	}
@@ -72,19 +79,25 @@ public class Monitor {
 		SingleConector.getConector().ler();
 
 		int temperatura = SingleConector.getConector().getTemperatura();
-		int batimentos = SingleConector.getConector().getBatimentos();
+		int umidade = SingleConector.getConector().getUmidade();
 
-		System.out.println("Temp = " + temperatura);
-		System.out.println("Bat = " + batimentos);
-		System.out.println("Mov = " + getMovimentoDetectado());
+		System.out.println("Temperatura = " + temperatura);
+		System.out.println("Umidade = " + umidade);
+		System.out.println("Vibração = " + getVibracaoDetectada());
+		System.out.println("Presença = " + getPresencaDetectada());
 
 		modeloMedidorTemperatura.setValue(temperatura);
-		modeloMedidorBatimentos.setValue(batimentos);
+		modeloMedidorUmidade.setValue(umidade);
 	}
 	
-	public boolean getMovimentoDetectado(){
+	public boolean getVibracaoDetectada(){
 		//se tiver movimento ele retorna 1
-		return (SingleConector.getConector().getMovimentos() == 1);
+		return (SingleConector.getConector().getVibracao() == 1);
+	}
+	
+	public boolean getPresencaDetectada(){
+		//se tiver presenca ele retorna 1
+		return (SingleConector.getConector().getPresenca() == 1);
 	}
 
 }

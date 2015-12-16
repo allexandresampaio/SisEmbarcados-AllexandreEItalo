@@ -20,6 +20,6 @@
     <param-value>resources.application</param-value>
   </context-param>
   <listener>
-    <listener-class>br.edu.ifba.se.babycare.contexto.ConfiguradorContexto</listener-class>
+    <listener-class>br.edu.ifba.se.winekeeper.contexto.ConfiguradorContexto</listener-class>
   </listener>
 </web-app>

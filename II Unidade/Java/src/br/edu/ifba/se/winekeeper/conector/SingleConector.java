@@ -10,7 +10,7 @@ public class SingleConector {
 	
 	public static void iniciarComunicacaoRF(String libPath){
 		comRF = FabricaConectores.getConector(libPath);
-		if (comRF.iniciar(PORTA)==0){//sucesso
+		if (comRF.iniciar(PORTA)==0){//0 em caso de sucesso
 			System.out.println("Acesso a sensores iniciado com sucesso.");
 			dispensarPrimeirasLeituras();
 		}
@@ -24,13 +24,14 @@ public class SingleConector {
 			comRF.ler();
 		}
 		
-		System.out.println("Dispensando leitura [B/T/M]:" + 
-				comRF.getBatimentos() + "/" +
-				comRF.getTemperatura()+ "/" +
-				comRF.getMovimentos());
+		System.out.println("Dispensando leitura [U/T/P/V]:" + 
+				comRF.getUmidade() + "/" +
+				comRF.getTemperatura() + "/" +
+				comRF.getPresenca() + "/" +
+				comRF.getVibracao());
 		
 		try {
-			Thread.sleep(1000);
+			Thread.sleep(3000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
