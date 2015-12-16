@@ -10,26 +10,55 @@ import org.primefaces.model.chart.MeterGaugeChartModel;
 
 import br.edu.ifba.se.winekeeper.conector.SingleConector;
 
-@ManagedBean(name = "monitor")
+@ManagedBean(name="monitor")
 public class Monitor {
-
+	
 	private MeterGaugeChartModel modeloMedidorTemperatura;
 	private MeterGaugeChartModel modeloMedidorUmidade;
 	
 	public MeterGaugeChartModel getModeloMedidorTemperatura() {
 		return modeloMedidorTemperatura;
 	}
-
+	
 	public MeterGaugeChartModel getModeloMedidorUmidade() {
 		return modeloMedidorUmidade;
+	}
+	
+	public void setModeloMedidorTemperatura(MeterGaugeChartModel modeloMedidorTemperatura) {
+		this.modeloMedidorTemperatura = modeloMedidorTemperatura;
+	}
+	
+	public void setModeloMedidorUmidade(MeterGaugeChartModel modeloMedidorUmidade) {
+		this.modeloMedidorUmidade = modeloMedidorUmidade;
 	}
 
 	@PostConstruct
 	public void iniciar(){
 		configurarMedidores();
 	}
-
-	private void configurarMedidores() {
+	
+	public void lerSensores(){
+		//acionar a leitura do arduino
+		Informacao info = SingleConector.getInformacao();
+		
+		int temperatura = info.getTemperatura();
+		int umidade = info.getUmidade();
+		
+//		int temperatura = (int) (Math.random()*50);
+//		int umidade = (int) (Math.random()*100);
+		
+		System.out.println("Temperatura = " + temperatura);
+		System.out.println("Umidade = " + umidade);
+		System.out.println("Vibração = " + getVibracaoDetectada());
+		System.out.println("Presença = " + getPresencaDetectada());
+		
+		modeloMedidorTemperatura.setValue(temperatura);
+		modeloMedidorUmidade.setValue(umidade);
+		//atualizar os valores nos medidores
+		
+	}
+	
+	private void configurarMedidores(){
 		modeloMedidorTemperatura = criarModeloTemperatura();
 		modeloMedidorTemperatura.setTitle("Temperatura");
 		modeloMedidorTemperatura.setGaugeLabel("Graus Celsius");
@@ -37,10 +66,9 @@ public class Monitor {
 		modeloMedidorUmidade = criarModeloUmidade();
 		modeloMedidorUmidade.setTitle("Umidade");
 		modeloMedidorUmidade.setGaugeLabel("Umidade %");
-		
 	}
-
-	private MeterGaugeChartModel criarModeloTemperatura() {
+	
+	private MeterGaugeChartModel criarModeloTemperatura(){
 		List<Number> marcadores = new ArrayList<Number>();
 		marcadores.add(0); 
 		marcadores.add(5);
@@ -53,11 +81,11 @@ public class Monitor {
 		marcadores.add(40); 
 		marcadores.add(45);
 		marcadores.add(50);
-				
+		
 		return new MeterGaugeChartModel(0, marcadores);
 	}
-
-	private MeterGaugeChartModel criarModeloUmidade() {
+	
+	private MeterGaugeChartModel criarModeloUmidade(){
 		List<Number> marcadores = new ArrayList<Number>();
 		marcadores.add(0); 
 		marcadores.add(10);
@@ -73,31 +101,18 @@ public class Monitor {
 		
 		return new MeterGaugeChartModel(0, marcadores);
 	}
-
-	public void lerSensores() {
-		// acionar a leitura do arduino
-		SingleConector.getConector().ler();
-
-		int temperatura = SingleConector.getConector().getTemperatura();
-		int umidade = SingleConector.getConector().getUmidade();
-
-		System.out.println("Temperatura = " + temperatura);
-		System.out.println("Umidade = " + umidade);
-		System.out.println("Vibração = " + getVibracaoDetectada());
-		System.out.println("Presença = " + getPresencaDetectada());
-
-		modeloMedidorTemperatura.setValue(temperatura);
-		modeloMedidorUmidade.setValue(umidade);
-	}
 	
 	public boolean getVibracaoDetectada(){
-		//se tiver movimento ele retorna 1
-		return (SingleConector.getConector().getVibracao() == 1);
+		return (SingleConector.getInformacao().getVibracao() == 1);
+		
+//		return ((Math.random()*10) <= 5);
 	}
 	
 	public boolean getPresencaDetectada(){
-		//se tiver presenca ele retorna 1
-		return (SingleConector.getConector().getPresenca() == 1);
+		return (SingleConector.getInformacao().getPresenca() == 1);
+		
+//		return ((Math.random()*10) <= 5);
 	}
+	
 
 }
