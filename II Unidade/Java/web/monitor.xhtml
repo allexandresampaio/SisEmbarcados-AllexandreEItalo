@@ -1,0 +1,28 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+</h:head>
+
+<h:body>
+	<h:form id="formMonitor">
+		<p:chart id="medidorTemperatura" type="metergauge"
+			model="#{monitor.modeloMedidorTemperatura}"
+			style="width:400px; height:250px"></p:chart>
+		<p:chart id="medidorBatimentos" type="metergauge"
+			model="#{monitor.modeloMedidorBatimentos}"
+			style="width:400px; height:250px"></p:chart>
+		<p:outputLabel id="avisoMovimento" value="Movimento: #{monitor.movimentoDetectado()}">
+		</p:outputLabel>
+
+		<p:poll interval="1" listener="#{monitor.lerSensores}"
+			update="formMonitor:medidorTemperatura, formMonitor:medidorBatimentos, 
+			formMonitor:avisoMovimento"></p:poll>
+
+	</h:form>
+</h:body>
+</html>
