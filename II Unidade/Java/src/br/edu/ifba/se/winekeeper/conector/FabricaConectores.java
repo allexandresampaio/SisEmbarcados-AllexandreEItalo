@@ -11,9 +11,9 @@ public class FabricaConectores {
 		IComunicacaoRF comRF = null;
 		
 		if(Platform.isWindows())
-			comRF = (IComunicacaoRF) Native.loadLibrary(libPath+"/ComunicacaoSensoresRF.dll", IComunicacaoRF.class);
+			comRF = (IComunicacaoRF) Native.loadLibrary(libPath+"/comunicacaoSensoresRF.dll", IComunicacaoRF.class);
 		else if(Platform.isLinux())
-			comRF = (IComunicacaoRF) Native.loadLibrary(libPath+"/ComunicacaoSensoresRF.so", IComunicacaoRF.class);
+			comRF = (IComunicacaoRF) Native.loadLibrary(libPath+"/comunicacaoSensoresRF.so", IComunicacaoRF.class);
 		return comRF;
 	}
 
