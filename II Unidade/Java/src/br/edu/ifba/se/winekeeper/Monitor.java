@@ -14,7 +14,7 @@ import br.edu.ifba.se.winekeeper.conector.SingleConector;
 public class Monitor {
 	
 	int temperatura, umidade;
-	boolean vibracao, presenca, presencaAnterior=false;
+	boolean vibracao, presenca;
 
 	private MeterGaugeChartModel modeloMedidorTemperatura;
 	
@@ -41,6 +41,7 @@ public class Monitor {
 	@PostConstruct
 	public void iniciar() {
 		configurarMedidores();
+		presenca = false;
 	}
 
 	public void lerSensores() {
@@ -123,14 +124,14 @@ public class Monitor {
 	}
 
 	public String getAcaoTemperatura() {
-		if (temperatura < 15 || temperatura > 22){
+		if (temperatura < 14 || temperatura > 18){
 			return "Temperatura fora dos padrões. Verificar condições da adega.";
 		}
 		else return "";
 	}
 
 	public String getAcaoUmidade() {
-		if (umidade < 5 || umidade > 20){
+		if (umidade < 70 || umidade > 75){
 			return "Umidade fora dos padrões. Verificar condições da adega.";
 		}
 		else return "";
@@ -146,14 +147,14 @@ public class Monitor {
 	public String getAcaoPresenca() {
 		String retorno="";
 		
-		if (presenca == true && presencaAnterior == false){
+		if (presenca == true && !ControladorPresenca.isPresencaAnterior()){
 			retorno = "Presença detectada. Ligar luzes e oxigenar adega.";
 		} 
 		
-		else if (presenca == false && presencaAnterior == true){
+		else if (presenca == false && ControladorPresenca.isPresencaAnterior()){
 			retorno = "Não há presença. Desligar luzes e desoxigenar adega.";
 		}
-		presencaAnterior = presenca;
+		ControladorPresenca.setPresencaAnterior(presenca);
 		return retorno;
 	}
 
