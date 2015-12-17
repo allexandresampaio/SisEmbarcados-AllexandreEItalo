@@ -51,7 +51,7 @@ public class SingleConector {
 		}
 		
 		info_.setUmidade(info.getUmidade());
-		info_.setTemperatura(info.getVibracao());
+		info_.setTemperatura(info.getTemperatura());
 		info_.setVibracao(info.getVibracao());
 		info_.setPresenca(info.getPresenca());
 		semaforo.release();
