@@ -7,19 +7,20 @@ import com.sun.jersey.spi.container.servlet.WebConfig;
 
 @SuppressWarnings("serial")
 public class ServletSensoriamento extends ServletContainer {
-	
-	private LeitorSensoriamento leitor = null;
-	private Thread tLeitor = null;
+
+	LeitorSensoriamento leitor;
+	Thread executorLeituras;
 	
 	@Override
 	protected void init(WebConfig webConfig) throws ServletException {
 		System.out.println("Iniciando serviço web...");
 		
 		leitor = new LeitorSensoriamento();
-		tLeitor = new Thread(leitor);
-		tLeitor.start();
+		executorLeituras = new Thread(leitor);
+		executorLeituras.start();
 		
 		super.init(webConfig);
+
 	}
 
 	@Override
@@ -28,8 +29,9 @@ public class ServletSensoriamento extends ServletContainer {
 		
 		leitor.parar();
 		try {
-			tLeitor.join();
+			executorLeituras.join();
 		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
