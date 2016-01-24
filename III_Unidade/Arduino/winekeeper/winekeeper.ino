@@ -106,23 +106,12 @@ void loop() {
   long info = receber();
   if(info != -1){
     if (extrairRFID(info) == 10){
-      infoRF.umidade = extrairUmidade(info);
-      infoRF.temperatura = extrairTemperatura(info);
-      infoRF.vibracao = extrairVibracao(info);
-      infoRF.presenca = extrairPresenca(info);
-      infoRF.id = extrairRFID(info);
-      enviarParaUSB();
-//      Serial.println("___________________");
-//      Serial.print("ID = ");
-//      Serial.println(infoRF.id);
-//      Serial.print("Temperatura = ");
-//      Serial.println(infoRF.temperatura);
-//      Serial.print("Presenca = ");
-//      Serial.println(infoRF.presenca);
-//      Serial.print("Umidade = ");
-//      Serial.println(infoRF.umidade);
-//      Serial.print("Vibracao = ");
-//      Serial.println(infoRF.vibracao);
+//      infoRF.umidade = extrairUmidade(info);
+//      infoRF.temperatura = extrairTemperatura(info);
+//      infoRF.vibracao = extrairVibracao(info);
+//      infoRF.presenca = extrairPresenca(info);
+//      infoRF.id = extrairRFID(info);
+      enviarParaUSB(info);//em vez de enviar  estrutura, envia o long criado.
     }
   }
    
@@ -155,10 +144,13 @@ int extrairUmidade(long info){
   return umidade;
 }
 
-void enviarParaUSB(){
-  char buff[sizeof(infoRF)]={0};
-  memcpy(&buff, &infoRF, sizeof(infoRF));
-  Serial.write('I');
-  Serial.write((uint8_t*) buff, sizeof(infoRF));
-  Serial.write('F');
+void enviarParaUSB(long info){
+//  char buff[sizeof(infoRF)]={0};
+//  memcpy(&buff, &infoRF, sizeof(infoRF));
+//  Serial.write('I');
+//  Serial.write((uint8_t*) buff, sizeof(infoRF));
+//  Serial.write('F');
+
+    Serial.write(info);
+    Serial.println(info);
 }
