@@ -1,4 +1,4 @@
-package br.edu.ifba.embarcados.webcoisas.sensoriamento;
+package br.edu.ifba.embarcados.winekeeper.sensoriamento;
 
 import javax.servlet.ServletException;
 

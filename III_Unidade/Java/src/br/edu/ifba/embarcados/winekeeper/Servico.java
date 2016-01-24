@@ -1,11 +1,11 @@
-package br.edu.ifba.embarcados.webcoisas;
+package br.edu.ifba.embarcados.winekeeper;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import br.edu.ifba.embarcados.webcoisas.sensoriamento.LeitorSensoriamento;
+import br.edu.ifba.embarcados.winekeeper.sensoriamento.LeitorSensoriamento;
 
 @Path("servico")
 public class Servico {

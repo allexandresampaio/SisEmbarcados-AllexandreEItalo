@@ -1,4 +1,4 @@
-package br.edu.ifba.embarcados.webcoisas.sensoriamento;
+package br.edu.ifba.embarcados.winekeeper.sensoriamento;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -8,7 +8,7 @@ public class LeitorSensoriamento implements
 	Runnable {
 
 	private static final String ARQUIVO_PIPE = 
-			"/home/allexandre/arquivos_initd/sensoriamento_p";
+			"/home/allexandre/arquivos_initd/winekeeper_p";
 	
 	private RandomAccessFile pipe = null;
 	private boolean continuar = true;
