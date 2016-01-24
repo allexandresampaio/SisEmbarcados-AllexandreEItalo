@@ -28,7 +28,8 @@ using namespace std;
 
 bool continuar = true;
 int sensores = 0;
-char* porta = "/dev/ttyACM0";//alterar para a porta em que o arduino estiver
+//alterar para a porta em que o arduino estiver
+char* porta ="/dev/ttyACM1";
 int hPorta=0;
 bool portainiciada = false;
 int resultado = EXIT_SUCCESS;
@@ -110,7 +111,7 @@ int lerSensores() {
 	//sensores++;
 
 	read(hPorta, (int*)&sensores, sizeof(sensores));
-	usleep(500*1000);
+	usleep(100*1000);
 
 	return sensores;
 }
@@ -150,7 +151,7 @@ void IniciarConexao(){
 	hPorta  = open(porta, O_RDWR | O_NOCTTY | O_NDELAY);
 			if (hPorta == -1){ // nao conseguiu pegar a porta retorna que falhou
 				resultado = EXIT_FAILURE;
-				usleep(2000*1000);
+				usleep(3000*1000);
 			} else { //configuraçao que precisa
 				fcntl(hPorta, F_SETFL, 0);
 				resultado = EXIT_SUCCESS;
@@ -196,7 +197,7 @@ int main(int arg, char* argv[]) {
 		//remove o arquivo do PIPE apos uso/finalizacao
 		unlink(ARQUIVO_PIPE);
 
-		log << "Daemon de sensoriamento finaliado" << endl;
+		log << "Daemon de sensoriamento finalizado." << endl;
 	}
 
 	return 0;
