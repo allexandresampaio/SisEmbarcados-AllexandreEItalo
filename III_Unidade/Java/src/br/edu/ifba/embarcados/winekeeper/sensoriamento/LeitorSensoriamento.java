@@ -47,7 +47,7 @@ public class LeitorSensoriamento implements Runnable {
 	public static int getTemperatura() {
 		int temp = getSensores();
 		
-		temp = (temp & 65280);
+		temp = (temp & 65280) >> DESLOCAMENTO_TEMPERATURA;
 		
 		return temp;
 	}

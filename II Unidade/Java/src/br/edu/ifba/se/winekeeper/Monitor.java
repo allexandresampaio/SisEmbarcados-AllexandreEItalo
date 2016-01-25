@@ -57,8 +57,8 @@ public class Monitor {
 
 		System.out.println("Temperatura = " + temperatura);
 		System.out.println("Umidade = " + umidade);
-		System.out.println("Vibração = " + vibracao);
-		System.out.println("Presença = " + presenca);
+		System.out.println("VibraÃ§Ã£o = " + vibracao);
+		System.out.println("PresenÃ§a = " + presenca);
 
 		modeloMedidorTemperatura.setValue(temperatura);
 		modeloMedidorUmidade.setValue(umidade);
@@ -124,7 +124,7 @@ public class Monitor {
 	public String getAcaoTemperatura() {
 		String retorno = "";
 		if (temperatura < 14 || temperatura > 18){
-			retorno = "Temperatura fora dos padrões. Verificar condições da adega.";
+			retorno = "Temperatura fora dos padrï¿½es. Verificar condiï¿½ï¿½es da adega.";
 			criarAviso(retorno);
 		}
 		return retorno;
@@ -133,7 +133,7 @@ public class Monitor {
 	public String getAcaoUmidade() {
 		String retorno = "";
 		if (umidade < 70 || umidade > 75){
-			retorno = "Umidade fora dos padrões. Verificar condições da adega.";
+			retorno = "Umidade fora dos padrï¿½es. Verificar condiï¿½ï¿½es da adega.";
 			criarAviso(retorno);
 		}
 		return retorno;
@@ -142,7 +142,7 @@ public class Monitor {
 	public String getAcaoVibracao() {
 		String retorno="";
 		if (vibracao == true && presenca == false){
-			retorno = "Vibração detectada. Verificar condições da adega.";
+			retorno = "Vibraï¿½ï¿½o detectada. Verificar condiï¿½ï¿½es da adega.";
 			criarAlerta(retorno);
 		} 
 		return retorno;
@@ -151,12 +151,12 @@ public class Monitor {
 	public String getAcaoPresenca() {
 		String retorno="";
 		if (presenca == true && !ControladorPresenca.isPresencaAnterior()){
-			retorno = "Presença detectada. Ligar luzes e oxigenar adega.";
+			retorno = "Presenï¿½a detectada. Ligar luzes e oxigenar adega.";
 			criarAlerta(retorno);
 		} 
 		
 		else if (presenca == false && ControladorPresenca.isPresencaAnterior()){
-			retorno = "Não há presença. Desligar luzes e desoxigenar adega.";
+			retorno = "Nï¿½o hï¿½ presenï¿½a. Desligar luzes e desoxigenar adega.";
 			criarAlerta(retorno);
 		}
 		ControladorPresenca.setPresencaAnterior(presenca);
@@ -165,12 +165,12 @@ public class Monitor {
 	
 	public void criarAlerta(String mensagem){
 		FacesContext context = FacesContext.getCurrentInstance();
-		context.addMessage(null, new FacesMessage(FacesMessage.SEVERITY_INFO, "WineKeep",  "Atenção: " + mensagem));
+		context.addMessage(null, new FacesMessage(FacesMessage.SEVERITY_INFO, "WineKeep",  "Atenï¿½ï¿½o: " + mensagem));
 	}
 	
 	public void criarAviso(String aviso){
 		FacesContext.getCurrentInstance().addMessage
-		(null, new FacesMessage(FacesMessage.SEVERITY_WARN, "Atenção!", aviso));
+		(null, new FacesMessage(FacesMessage.SEVERITY_WARN, "Atenï¿½ï¿½o!", aviso));
 	}
 
 }

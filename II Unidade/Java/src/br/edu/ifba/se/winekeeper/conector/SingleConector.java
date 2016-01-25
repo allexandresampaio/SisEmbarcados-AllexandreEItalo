@@ -7,8 +7,8 @@ import br.edu.ifba.se.winekeeper.Informacao;
 
 public class SingleConector {
 	
-	private static final String PORTA = "COM3";
-	private static IComunicacaoRF comRF = null; //fica disponível enquanto a JVM estiver no ar
+	private static final String PORTA = "/dev/ttyACM0";
+	private static IComunicacaoRF comRF = null; //fica disponÃ­vel enquanto a JVM estiver no ar
 	private static Informacao info;
 	private static Semaphore semaforo;
 	
@@ -21,7 +21,7 @@ public class SingleConector {
 			dispensarPrimeirasLeituras();
 			semaforo = new Semaphore(1, true);
 		}else
-			System.out.println("Nao foi possível iniciar acesso a sensores.");
+			System.out.println("Nao foi possÃ­vel iniciar acesso a sensores.");
 	}
 	
 	public static void dispensarPrimeirasLeituras(){

@@ -22,13 +22,13 @@ ADXL345 acel = ADXL345();
 #define DESLOC_VIBRACAO 16
 #define DESLOC_TEMPERATURA 8
 
-struct info{
-  int id;
-  int umidade;
-  int temperatura;
-  int vibracao;
-  int presenca;
-} infoRF ;
+//struct info{
+//  int id;
+//  int umidade;
+//  int temperatura;
+//  int vibracao;
+//  int presenca;
+//} infoRF ;
 
 void setup() {
   Serial.begin(9600);
@@ -150,7 +150,4 @@ void enviarParaUSB(long info){
 //  Serial.write('I');
   Serial.write((uint8_t*) buff, sizeof(info));
 //  Serial.write('F');
-
-//    Serial.write(info);
-    Serial.println(info);
 }

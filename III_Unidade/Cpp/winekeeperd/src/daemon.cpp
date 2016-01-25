@@ -29,7 +29,7 @@ using namespace std;
 bool continuar = true;
 int sensores = 0;
 //alterar para a porta em que o arduino estiver
-char* porta ="/dev/ttyACM1";
+char* porta ="/dev/ttyACM0";
 int hPorta=0;
 bool portainiciada = false;
 int resultado = EXIT_SUCCESS;
@@ -151,7 +151,7 @@ void IniciarConexao(){
 	hPorta  = open(porta, O_RDWR | O_NOCTTY | O_NDELAY);
 			if (hPorta == -1){ // nao conseguiu pegar a porta retorna que falhou
 				resultado = EXIT_FAILURE;
-				usleep(3000*1000);
+				//usleep(3000*1000);
 			} else { //configuraçao que precisa
 				fcntl(hPorta, F_SETFL, 0);
 				resultado = EXIT_SUCCESS;
