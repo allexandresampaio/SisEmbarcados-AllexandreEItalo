@@ -6,9 +6,10 @@ import java.io.RandomAccessFile;
 
 public class LeitorSensoriamento implements Runnable {
 
-	private static final int DESLOCAMENTO_RFID  = 17;
-	private static final int DESLOCAMENTO_MOVMT = 16;
-	private static final int DESLOCAMENTO_BATMT = 8;
+	private static final int DESLOCAMENTO_RFID  = 18;
+	private static final int DESLOCAMENTO_PRESENCA = 17;
+	private static final int DESLOCAMENTO_VIBRACAO = 16;
+	private static final int DESLOCAMENTO_TEMPERATURA = 8;
 	
 	// referencia/acesso estatico a sensores
 	private static Integer sensores = 0;
@@ -27,28 +28,36 @@ public class LeitorSensoriamento implements Runnable {
 		return id;
 	}
 	
-	public static int getMovimento() {
-		int mov = getSensores();
+	public static int getPresenca() {
+		int pre = getSensores();
 		
-		mov = (mov & 65536) >> DESLOCAMENTO_MOVMT;
+		pre = (pre & 131072) >> DESLOCAMENTO_PRESENCA;
 		
-		return mov;
+		return pre;
 	}
 	
-	public static int getBatimentos() {
-		int bat = getSensores();
+	public static int getVibracao() {
+		int vib = getSensores();
 		
-		bat = (bat & 65280) >> DESLOCAMENTO_BATMT;
+		vib = (vib & 65536) >> DESLOCAMENTO_VIBRACAO;
 		
-		return bat;
+		return vib;
 	}
 	
 	public static int getTemperatura() {
 		int temp = getSensores();
 		
-		temp = (temp & 255);
+		temp = (temp & 65280);
 		
 		return temp;
+	}
+
+	public static int getUmidade() {
+		int umi = getSensores();
+		
+		umi = (umi & 255);
+		
+		return umi;
 	}
 
 	// acesso a arquivo PIPE de sensoriamento
