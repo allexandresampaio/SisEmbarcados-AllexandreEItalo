@@ -145,12 +145,12 @@ int extrairUmidade(long info){
 }
 
 void enviarParaUSB(long info){
-//  char buff[sizeof(infoRF)]={0};
-//  memcpy(&buff, &infoRF, sizeof(infoRF));
+  char buff[sizeof(info)]={0};
+  memcpy(&buff, &info, sizeof(info));
 //  Serial.write('I');
-//  Serial.write((uint8_t*) buff, sizeof(infoRF));
+  Serial.write((uint8_t*) buff, sizeof(info));
 //  Serial.write('F');
 
-    Serial.write(info);
+//    Serial.write(info);
     Serial.println(info);
 }
