@@ -64,7 +64,7 @@ public class LeitorSensoriamento implements Runnable {
 	//Status dos sensores
 	public static String getStatus(){
 		String status = "";
-		status = getStatusPresenca() + "\n" +
+		status += getStatusPresenca() + "\n" +
 				 getStatusVibracao() + "\n" +
 				 getStatusTemperatura() + "\n" +
 				 getStatusVibracao();
@@ -77,9 +77,9 @@ public class LeitorSensoriamento implements Runnable {
 		int presenca = getPresenca();
 		
 		if (presenca == 1){
-			status = "Presença detectada! Ajustar níveis de oxigênio e iluminação."
+			status = "Presenca detectada! Ajustar niveis de oxigenio e iluminacao.";
 		} else {
-			status = "Presença não detectada. Oxigenação e iluminação controlados."
+			status = "Presenca nao detectada. Oxigenacao e iluminacao controlados.";
 		}
 		
 		return status;
@@ -92,9 +92,9 @@ public class LeitorSensoriamento implements Runnable {
 		int vibracao = getVibracao();
 		
 		if (vibracao == 1){
-			status = "Vibração detectada! Verifique."
+			status = "Vibracao detectada! Verifique.";
 		}else{
-			status = "Ambiente sem vibrações."
+			status = "Ambiente sem vibracoes.";
 		}
 		
 		return status;
@@ -105,9 +105,9 @@ public class LeitorSensoriamento implements Runnable {
 		int temperatura = getTemperatura();
 		
 		if ((temperatura > 4) & (temperatura < 20)){
-			status = "Temperatura dentro dos padrões recomendados."
+			status = "Temperatura dentro dos padroes recomendados.";
 		}else{
-			status = "Temperatura fora dos padrões recomendados! Ajuste."
+			status = "Temperatura fora dos padroes recomendados! Ajuste.";
 		}
 		
 		return status;
@@ -118,9 +118,9 @@ public class LeitorSensoriamento implements Runnable {
 		int umidade = getTemperatura();
 		
 		if (umidade < 65){
-			status = "Umidade dentro dos padrões recomendados."
+			status = "Umidade dentro dos padroes recomendados.";
 		}else{
-			status = "Umidade fora dos padrões recomendados! Ajuste."
+			status = "Umidade fora dos padroes recomendados! Ajuste.";
 		}
 		
 		return status;
