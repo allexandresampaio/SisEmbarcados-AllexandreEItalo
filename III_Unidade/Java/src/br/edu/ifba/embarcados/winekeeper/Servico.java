@@ -50,6 +50,12 @@ public class Servico {
 		return LeitorSensoriamento.getUmidade() + "";
 	}
 	
+	@GET
+	@Path("/sensores/status")
+	@Produces(MediaType.TEXT_PLAIN)
+	public String getStatus() {
+		return LeitorSensoriamento.getStatus() + "";
+	}
 	
 	
 }
