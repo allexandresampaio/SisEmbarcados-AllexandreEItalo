@@ -22,14 +22,6 @@ ADXL345 acel = ADXL345();
 #define DESLOC_VIBRACAO 16
 #define DESLOC_TEMPERATURA 8
 
-//struct info{
-//  int id;
-//  int umidade;
-//  int temperatura;
-//  int vibracao;
-//  int presenca;
-//} infoRF ;
-
 void setup() {
   Serial.begin(9600);
   //Configuracao do emissor/Receptor RF
@@ -64,6 +56,7 @@ long lerSensoresRF(){
   long presenca = digitalRead(P_PRESENCA);
   long umidade = analogRead(P_UMIDADE);
   long temperatura = analogRead(P_TEMPERATURA);
+  
   //Mapeamento do potenciometro
   umidade = map(umidade, 0, 1023, 0, 100);
   temperatura = map(temperatura, 0, 1023, 0, 50);
@@ -77,6 +70,7 @@ long lerSensoresRF(){
   if(acel.triggered(interruptAcel, ADXL345_INT_ACTIVITY_BIT)){
     vibracao = 1;
   }
+
   long info = rf << DESLOC_RFID;//18
   info = info | (presenca << DESLOC_PRESENCA);//17
   info = info | (vibracao << DESLOC_VIBRACAO);///16
@@ -106,12 +100,7 @@ void loop() {
   long info = receber();
   if(info != -1){
     if (extrairRFID(info) == 10){
-//      infoRF.umidade = extrairUmidade(info);
-//      infoRF.temperatura = extrairTemperatura(info);
-//      infoRF.vibracao = extrairVibracao(info);
-//      infoRF.presenca = extrairPresenca(info);
-//      infoRF.id = extrairRFID(info);
-      enviarParaUSB(info);//em vez de enviar  estrutura, envia o long criado.
+      enviarParaUSB(info);//envia o long criado.
     }
   }
    
@@ -124,30 +113,10 @@ int extrairRFID(long info){
   return rf;
 }
 
-int extrairPresenca(long info){
-  int presenca = (info & 131072) >> DESLOC_PRESENCA;//17
-  return presenca;
-}
-
-int extrairVibracao(long info){
-  int vibracao = (info & 65536) >> DESLOC_VIBRACAO;//16
-  return vibracao;
-}
-
-int extrairTemperatura(long info){
-  int temperatura = (info & 65280) >> DESLOC_TEMPERATURA;//8
-  return temperatura;
-}
-
-int extrairUmidade(long info){
-  int umidade = (info & 255);
-  return umidade;
-}
-
 void enviarParaUSB(long info){
   char buff[sizeof(info)]={0};
   memcpy(&buff, &info, sizeof(info));
-//  Serial.write('I');
+
   Serial.write((uint8_t*) buff, sizeof(info));
-//  Serial.write('F');
+
 }
