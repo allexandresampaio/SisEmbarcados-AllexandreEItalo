@@ -151,7 +151,6 @@ void IniciarConexao(){
 	hPorta  = open(porta, O_RDWR | O_NOCTTY | O_NDELAY);
 			if (hPorta == -1){ // nao conseguiu pegar a porta retorna que falhou
 				resultado = EXIT_FAILURE;
-				//usleep(3000*1000);
 			} else { //configuraçao que precisa
 				fcntl(hPorta, F_SETFL, 0);
 				resultado = EXIT_SUCCESS;
