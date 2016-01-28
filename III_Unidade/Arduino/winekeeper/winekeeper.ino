@@ -103,7 +103,6 @@ void loop() {
       enviarParaUSB(info);//envia o long criado.
     }
   }
-   
   //Delay de 3 segundos para sincronizar com o sensor de presenca
   delay(3000);
 }
@@ -116,7 +115,5 @@ int extrairRFID(long info){
 void enviarParaUSB(long info){
   char buff[sizeof(info)]={0};
   memcpy(&buff, &info, sizeof(info));
-
   Serial.write((uint8_t*) buff, sizeof(info));
-
 }
